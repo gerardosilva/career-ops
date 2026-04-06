@@ -1,23 +1,23 @@
-# Modo: pipeline — Inbox de URLs
+# Mode: pipeline — URL Inbox
 
-Procesa oportunidades acumuladas en `data/pipeline.md`.
+Process opportunities accumulated in `data/pipeline.md`.
 
-## Flujo
+## Flow
 
-1. Leer pendientes
-2. Para cada item:
-   - extraer contenido
-   - ejecutar `auto-pipeline`
-   - moverlo a procesadas
-3. Si falla una URL, marcarla con nota y seguir
+1. Read pending items.
+2. For each item:
+   - extract the content
+   - run `auto-pipeline`
+   - move it to processed
+3. If a URL fails, mark it with a note and continue.
 
-## Formato
+## Format
 
 ```markdown
-## Pendientes
+## Pending
 - [ ] https://example.com/job
 - [ ] https://example.com/brief | Client | Drupal migration
 
-## Procesadas
+## Processed
 - [x] #001 | https://example.com/job | Company | Senior Drupal Developer | 4.3/5 | PDF ✅
 ```

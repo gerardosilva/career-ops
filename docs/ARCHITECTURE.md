@@ -47,7 +47,7 @@
    - E: CV personalization plan
    - F: Interview prep (STAR stories)
 5. **Score**: Weighted average across 10 dimensions (1-5)
-6. **Report**: Save as `reports/{num}-{company}-{date}.md`
+6. **Report**: Save as `reports/{company-slug}/{date}-{role-slug}/{num}-{company}-{date}.md`
 7. **PDF**: Generate ATS-optimized CV (`generate-pdf.mjs`)
 8. **Track**: Write TSV to `batch/tracker-additions/`, auto-merged
 
@@ -83,8 +83,9 @@ templates/cv-template.html → PDF generation template
 
 ## File Naming Conventions
 
-- Reports: `{###}-{company-slug}-{YYYY-MM-DD}.md` (3-digit zero-padded)
-- PDFs: `cv-candidate-{company-slug}-{YYYY-MM-DD}.pdf`
+- Reports: `reports/{company-slug}/{YYYY-MM-DD}-{role-slug}/{###}-{company-slug}-{YYYY-MM-DD}.md`
+- Opportunity assets: `output/{company-slug}/{YYYY-MM-DD}-{role-slug}/`
+- PDFs: `output/{company-slug}/{YYYY-MM-DD}-{role-slug}/{asset-name}.pdf`
 - Tracker TSVs: `batch/tracker-additions/{id}.tsv`
 
 ## Pipeline Integrity

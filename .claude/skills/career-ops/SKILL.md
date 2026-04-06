@@ -15,9 +15,9 @@ Determine the mode from `{{mode}}`:
 |-------|------|
 | (empty / no args) | `discovery` |
 | role text, brief, lead note, or URL | `auto-pipeline` |
-| `oferta` | `oferta` |
-| `ofertas` | `ofertas` |
-| `contacto` | `contacto` |
+| `evaluate` | `evaluate` |
+| `compare` | `compare` |
+| `outreach` | `outreach` |
 | `deep` | `deep` |
 | `pdf` | `pdf` |
 | `training` | `training` |
@@ -40,8 +40,9 @@ career-ops -- Drupal Opportunity Pipeline
 Available commands:
   /career-ops {input}     -> Auto-pipeline for a role, contract, or lead
   /career-ops pipeline    -> Process pending URLs from data/pipeline.md
-  /career-ops oferta      -> Evaluate one opportunity
-  /career-ops contacto    -> Outreach or follow-up message
+  /career-ops evaluate    -> Evaluate one opportunity
+  /career-ops compare     -> Compare multiple opportunities
+  /career-ops outreach    -> Outreach or follow-up message
   /career-ops deep        -> Deep company or client research
   /career-ops pdf         -> Tailored CV or capability PDF
   /career-ops tracker     -> Opportunity tracker overview
@@ -52,7 +53,7 @@ Available commands:
 
 ## Context Loading
 
-For `auto-pipeline`, `oferta`, `ofertas`, `pdf`, `contacto`, `apply`, `pipeline`, `scan`, and `batch`:
+For `auto-pipeline`, `evaluate`, `compare`, `pdf`, `outreach`, `apply`, `pipeline`, `scan`, and `batch`:
 
 - read `CLAUDE.md`
 - read `modes/_shared.md`

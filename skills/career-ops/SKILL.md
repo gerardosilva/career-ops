@@ -45,9 +45,10 @@ Choose a mode from the user request:
 - `tracker` -> `modes/tracker.md`
 - `pdf` -> `modes/pdf.md`
 - `apply` -> `modes/apply.md`
-- `contacto` or outreach request -> `modes/contacto.md`
+- `outreach` or any outreach request -> `modes/outreach.md`
 - queued URLs or inbox processing -> `modes/pipeline.md`
-- direct evaluation request -> `modes/oferta.md`
+- direct evaluation request -> `modes/evaluate.md`
+- comparison request -> `modes/compare.md`
 - batch processing -> `modes/batch.md`
 
 If the request is not explicit but includes a JD, contract brief, RFP, or opportunity URL, default to `auto-pipeline`.

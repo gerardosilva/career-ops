@@ -225,14 +225,14 @@ process_offer() {
   retries=$(get_retries "$id")
   local jd_file="/tmp/batch-jd-${id}.txt"
 
-  echo "--- Processing offer #$id: $url (report $report_num, attempt $((retries + 1)))"
+  echo "--- Processing opportunity #$id: $url (report $report_num, attempt $((retries + 1)))"
 
   # Mark as in-progress
   update_state "$id" "$url" "processing" "$started_at" "-" "$report_num" "-" "-" "$retries"
 
   # Build the prompt with placeholders replaced
   local prompt
-  prompt="Procesa esta oferta de empleo. Ejecuta el pipeline completo: evaluación A-F + report .md + PDF + tracker line."
+  prompt="Process this opportunity. Run the full pipeline: evaluation + report + PDF + tracker line."
   prompt="$prompt URL: $url"
   prompt="$prompt JD file: $jd_file"
   prompt="$prompt Report number: $report_num"

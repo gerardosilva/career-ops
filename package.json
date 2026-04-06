@@ -8,7 +8,8 @@
     "dedup": "node dedup-tracker.mjs",
     "merge": "node merge-tracker.mjs",
     "pdf": "node generate-pdf.mjs",
-    "sync-check": "node cv-sync-check.mjs"
+    "sync-check": "node cv-sync-check.mjs",
+    "dashboard": "node dashboard/server.mjs"
   },
   "keywords": ["drupal", "php", "claude-code", "career", "freelance", "contract", "jobs"],
   "author": "Santiago Fernández de Valderrama <hi@santifer.io> (https://santifer.io)",

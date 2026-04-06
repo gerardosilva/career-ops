@@ -1,24 +1,25 @@
-# Modo: pdf — Generacion de PDF
+# Mode: pdf — PDF Generation
 
-Genera el asset correcto para la oportunidad:
+Generate the right asset for the opportunity:
 
-- CV adaptado
+- tailored CV
 - capability statement
-- one-pager tecnico
+- technical one-pager
 
 ## Workflow
 
-1. Leer `cv.md`, `article-digest.md`, y `config/profile.yml`
-2. Detectar tipo de oportunidad
-3. Extraer keywords del rol o brief
-4. Elegir formato:
+1. Read `cv.md`, `article-digest.md`, and `config/profile.yml`.
+2. Detect the opportunity type.
+3. Extract the relevant keywords from the role or brief.
+4. Choose the format:
    - full-time -> CV
-   - contract -> CV o one-pager
-   - freelance -> capability statement o proposal summary
-5. Reescribir summary sin inventar experiencia
-6. Priorizar proyectos y proof points relevantes
-7. Generar HTML y luego PDF
+   - contract -> CV or one-pager
+   - freelance -> capability statement or proposal summary
+5. Rewrite the summary without inventing experience.
+6. Prioritize the most relevant projects and proof points.
+7. Create `output/{company-slug}/{YYYY-MM-DD}-{role-slug}/`.
+8. Generate HTML and then PDF inside that folder.
 
-## Regla central
+## Core Rule
 
-No inyectar palabras clave falsas. Solo reformular experiencia real con vocabulario mas cercano a la oportunidad.
+Do not inject false keywords. Only reframe real experience using language that is closer to the opportunity.

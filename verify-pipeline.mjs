@@ -29,15 +29,42 @@ const STATES_FILE = existsSync(join(CAREER_OPS, 'templates/states.yml'))
   : join(CAREER_OPS, 'states.yml');
 
 const CANONICAL_STATUSES = [
-  'evaluada', 'aplicado', 'respondido', 'entrevista',
-  'oferta', 'rechazado', 'descartado', 'no aplicar',
+  'qualified', 'reached out', 'submitted', 'in process',
+  'negotiating', 'won', 'lost', 'parked',
 ];
 
 const ALIASES = {
-  'enviada': 'aplicado', 'aplicada': 'aplicado', 'applied': 'aplicado', 'sent': 'aplicado',
-  'cerrada': 'descartado', 'descartada': 'descartado', 'cancelada': 'descartado',
-  'rechazada': 'rechazado',
-  'no_aplicar': 'no aplicar', 'skip': 'no aplicar', 'monitor': 'no aplicar',
+  'evaluada': 'qualified',
+  'evaluated': 'qualified',
+  'enviada': 'submitted',
+  'aplicada': 'submitted',
+  'aplicado': 'submitted',
+  'applied': 'submitted',
+  'sent': 'submitted',
+  'proposal sent': 'submitted',
+  'respondido': 'reached out',
+  'responded': 'reached out',
+  'contactado': 'reached out',
+  'entrevista': 'in process',
+  'interview': 'in process',
+  'discovery': 'in process',
+  'oferta': 'negotiating',
+  'offer': 'negotiating',
+  'negociando': 'negotiating',
+  'ganado': 'won',
+  'signed': 'won',
+  'closed won': 'won',
+  'rechazada': 'lost',
+  'rechazado': 'lost',
+  'rejected': 'lost',
+  'cerrada': 'parked',
+  'descartada': 'parked',
+  'descartado': 'parked',
+  'cancelada': 'parked',
+  'no aplicar': 'parked',
+  'no_aplicar': 'parked',
+  'skip': 'parked',
+  'monitor': 'parked',
 };
 
 let errors = 0;

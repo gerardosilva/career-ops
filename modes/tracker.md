@@ -1,25 +1,25 @@
-# Modo: tracker — Tracker de Oportunidades
+# Mode: tracker — Opportunity Tracker
 
-Lee y muestra `data/applications.md`.
+Read and display `data/applications.md`.
 
-## Estados
+## States
 
 `Qualified` -> `Reached Out` -> `Submitted` -> `In Process` -> `Negotiating` -> `Won`
 
-Estados terminales:
+Terminal states:
 
 - `Lost`
 - `Parked`
 
-## Significado
+## Meaning
 
-- `Qualified`: vale la pena seguirla
-- `Reached Out`: hubo outreach o follow-up
-- `Submitted`: aplicacion, propuesta o capability pack enviado
-- `In Process`: discovery, entrevistas o evaluacion activa
-- `Negotiating`: terminos, alcance o compensacion en discusion
-- `Won`: proyecto cerrado o rol aceptado
-- `Lost`: se perdio o rechazaron
-- `Parked`: no se persigue por ahora
+- `Qualified`: worth keeping active
+- `Reached Out`: outreach or follow-up has been sent
+- `Submitted`: application, proposal, or capability package has been sent
+- `In Process`: discovery, interviews, or active evaluation is underway
+- `Negotiating`: terms, scope, or compensation are under discussion
+- `Won`: project signed or role accepted
+- `Lost`: the opportunity was lost or rejected
+- `Parked`: not worth pursuing for now
 
-Si el usuario pide actualizar un estado, editar la fila correspondiente.
+If the user asks to update a status, edit the matching row.

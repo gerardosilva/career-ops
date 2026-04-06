@@ -1,51 +1,61 @@
-# Modo: auto-pipeline — Pipeline Completo
+# Mode: auto-pipeline — Full Pipeline
 
-Cuando el usuario pega una URL o descripción, asumir que puede ser:
+When the user pastes a URL or description, assume it may be:
 
-- una vacante full-time
-- un contrato
-- un lead freelance
-- un brief o RFP
+- a full-time role
+- a contract role
+- a freelance lead
+- a brief or RFP
 
-## Paso 0 — Extraer el contenido
+## Step 0 — Extract The Content
 
-1. URL -> usar Playwright, luego WebFetch, luego WebSearch.
-2. Texto pegado -> usar directo.
-3. Si no hay suficiente contexto -> pedir el texto completo.
+1. URL -> use Playwright, then WebFetch, then WebSearch.
+2. Pasted text -> use it directly.
+3. If the context is incomplete -> ask for the full text.
 
-## Paso 1 — Clasificar
+## Step 1 — Classify
 
-Determinar:
+Determine:
 
-- tipo de oportunidad
-- arquetipo
+- opportunity type
+- archetype
 - seniority
-- si el output correcto es CV, capability statement, o solo qualification notes
+- whether the correct output is a CV, capability statement, or qualification notes
 
-## Paso 2 — Evaluación
+## Step 2 — Evaluation
 
-Ejecutar `oferta`.
+Run the evaluate flow.
 
-## Paso 3 — Reporte
+## Step 3 — Report
 
-Guardar el reporte completo en `reports/{###}-{company-slug}-{YYYY-MM-DD}.md`.
+Save the full report in:
 
-## Paso 4 — PDF
+`reports/{company-slug}/{YYYY-MM-DD}-{role-slug}/{###}-{company-slug}-{YYYY-MM-DD}.md`
 
-Si el score es >= 3.5 y existe una vía razonable de avance:
+## Step 3.5 — Output Folder
 
-- full-time -> CV adaptado
-- contract -> CV o one-pager
-- freelance -> capability statement o borrador de propuesta
+Create an opportunity asset folder at:
 
-## Paso 5 — Borradores
+`output/{company-slug}/{YYYY-MM-DD}-{role-slug}/`
 
-Si el score es >= 4.2, generar:
+Keep all generated files for that opportunity in that folder.
 
-- respuestas de formulario para full-time
-- email o message de follow-up para contrato
-- qualification questions o pitch breve para freelance
+## Step 4 — PDF
 
-## Paso 6 — Tracker
+If the score is >= 3.5 and there is a realistic path forward:
 
-Registrar en `data/applications.md` con estado inicial `Qualified`.
+- full-time -> tailored CV
+- contract -> tailored CV or one-pager
+- freelance -> capability statement or proposal draft
+
+## Step 5 — Drafts
+
+If the score is >= 4.2, generate:
+
+- form answers for full-time roles
+- a follow-up email or message for contract roles
+- qualification questions or a short pitch for freelance leads
+
+## Step 6 — Tracker
+
+Register the opportunity in `data/applications.md` with the initial status `Qualified`.

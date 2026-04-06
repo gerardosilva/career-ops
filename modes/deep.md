@@ -1,47 +1,47 @@
-# Modo: deep — Deep Research Prompt
+# Mode: deep — Deep Research Prompt
 
-Genera un prompt estructurado para Perplexity/Claude/ChatGPT con 6 ejes:
+Generate a structured research prompt for Perplexity, Claude, or ChatGPT with six sections:
 
+```text
+## Deep Research: [Company] — [Role]
+
+Context: I am evaluating an opportunity for [role] at [company]. I need actionable research for interviews, discovery, or positioning.
+
+### 1. Company Strategy
+- What products or services matter most right now?
+- What is their technical stack or platform direction?
+- Do they publish engineering or product content?
+- What signals show where the business is heading?
+
+### 2. Recent Moves (last 6 months)
+- relevant hires
+- acquisitions or partnerships
+- launches or pivots
+- funding or leadership changes
+
+### 3. Delivery Culture
+- shipping cadence
+- CI/CD and engineering process
+- main languages and frameworks
+- remote-first or office-first
+- public team culture signals
+
+### 4. Likely Problems
+- scaling issues
+- reliability, cost, or delivery pain points
+- migration or platform modernization work
+- pain points mentioned publicly by customers or employees
+
+### 5. Competitors And Positioning
+- main competitors
+- differentiators
+- how they position themselves
+
+### 6. Candidate Angle
+Given my profile (read from cv.md and profile.yml):
+- what unique value do I bring?
+- which of my projects are most relevant?
+- what story should I tell?
 ```
-## Deep Research: [Empresa] — [Rol]
 
-Contexto: Estoy evaluando una candidatura para [rol] en [empresa]. Necesito información accionable para la entrevista.
-
-### 1. Estrategia AI
-- ¿Qué productos/features usan AI/ML?
-- ¿Cuál es su stack de AI? (modelos, infra, tools)
-- ¿Tienen blog de engineering? ¿Qué publican?
-- ¿Qué papers o talks han dado sobre AI?
-
-### 2. Movimientos recientes (últimos 6 meses)
-- ¿Contrataciones relevantes en AI/ML/product?
-- ¿Acquisitions o partnerships?
-- ¿Product launches o pivots?
-- ¿Rondas de funding o cambios de liderazgo?
-
-### 3. Cultura de engineering
-- ¿Cómo shipean? (cadencia de deploy, CI/CD)
-- ¿Mono-repo o multi-repo?
-- ¿Qué lenguajes/frameworks usan?
-- ¿Remote-first o office-first?
-- ¿Glassdoor/Blind reviews sobre eng culture?
-
-### 4. Retos probables
-- ¿Qué problemas de scaling tienen?
-- ¿Reliability, cost, latency challenges?
-- ¿Están migrando algo? (infra, models, platforms)
-- ¿Qué pain points menciona la gente en reviews?
-
-### 5. Competidores y diferenciación
-- ¿Quiénes son sus main competitors?
-- ¿Cuál es su moat/diferenciador?
-- ¿Cómo se posicionan vs competencia?
-
-### 6. Ángulo del candidato
-Dado mi perfil (read from cv.md and profile.yml for specific experience):
-- ¿Qué valor único aporto a este equipo?
-- ¿Qué proyectos míos son más relevantes?
-- ¿Qué historia debería contar en la entrevista?
-```
-
-Personalizar cada sección con el contexto específico de la oferta evaluada.
+Customize the prompt for the specific opportunity under review.

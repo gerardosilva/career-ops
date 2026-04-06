@@ -130,6 +130,15 @@ Depending on the opportunity type:
 
 Do not assume every lead deserves a proposal.
 
+## Writing Style For Outreach And Application Notes
+
+For English emails, follow-ups, intro notes, and portal text:
+
+- avoid stiff phrases like `I am applying` and `my background fits well` unless the format truly requires them
+- prefer a concrete, human reason for reaching out
+- use natural transitions and rhythm instead of template language
+- write like an experienced developer talking to another person, not like a CV paragraph
+
 ## Ethical Use
 
 - Never submit anything without user review.
@@ -144,17 +153,39 @@ Do not assume every lead deserves a proposal.
 - Never silently duplicate company plus role entries.
 - Use `batch/tracker-additions/` plus merge scripts for new entries.
 
+## Output Convention
+
+Store generated opportunity assets under:
+
+`output/{company-slug}/{YYYY-MM-DD}-{role-slug}/`
+
+Keep each opportunity folder self-contained. Typical files include:
+
+- tailored CV source
+- HTML render source
+- PDF
+- application email draft
+- notes or tweak files
+
+Prefer this structure over flat files in `output/`.
+
+Store reports under:
+
+`reports/{company-slug}/{YYYY-MM-DD}-{role-slug}/{###}-{company-slug}-{YYYY-MM-DD}.md`
+
+Keep one report folder per opportunity so reports and assets can be inspected together by company and role.
+
 ## Modes
 
 | User intent | Mode |
 |-------------|------|
 | Paste role, project, or lead | `auto-pipeline` |
-| Evaluate one opportunity | `oferta` |
+| Evaluate one opportunity | `evaluate` |
 | Scan sources | `scan` |
 | Generate PDF | `pdf` |
 | Review tracker | `tracker` |
 | Fill forms or portals | `apply` |
-| Outreach or follow-up | `contacto` |
+| Outreach or follow-up | `outreach` |
 | Process queue | `pipeline` |
 
 ## Operating Principle

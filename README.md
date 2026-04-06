@@ -37,6 +37,20 @@ Instead of assuming AI product roles, the default scoring, keywords, and tracker
 
 The PDF can still be a tailored CV for full-time roles, but the fork also supports capability statements and proposal-oriented framing for freelance work.
 
+Generated assets should be grouped by company and opportunity:
+
+```text
+output/{company-slug}/{YYYY-MM-DD}-{role-slug}/
+```
+
+That folder should contain the tailored CV source, HTML render, PDF, email draft, and any opportunity-specific notes.
+
+Reports should follow the same company/opportunity grouping:
+
+```text
+reports/{company-slug}/{YYYY-MM-DD}-{role-slug}/{###}-{company-slug}-{YYYY-MM-DD}.md
+```
+
 ## Default Opportunity Types
 
 - Senior Drupal Developer
@@ -99,7 +113,7 @@ Examples:
 /career-ops tracker        -> Review pipeline state
 /career-ops apply          -> Assist with live forms or proposal portals
 /career-ops pipeline       -> Process queued URLs
-/career-ops contacto       -> Draft outreach or follow-up messages
+/career-ops outreach       -> Draft outreach or follow-up messages
 /career-ops deep           -> Deep company or client research
 ```
 
@@ -123,7 +137,21 @@ The default config is biased toward places a Drupal developer can realistically 
 
 ## Dashboard
 
-The Go dashboard still works as a terminal pipeline viewer:
+The fastest local dashboard now is the Node web dashboard:
+
+```bash
+npm run dashboard
+```
+
+Then open:
+
+```text
+http://127.0.0.1:4173
+```
+
+It reads the same tracker and report files, shows metrics, lets you filter the pipeline, and can update statuses directly in `data/applications.md`.
+
+The original Go dashboard is still available as a terminal viewer if Go is installed:
 
 ```bash
 cd dashboard

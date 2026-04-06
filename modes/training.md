@@ -1,27 +1,22 @@
-# Modo: training — Evaluación de Formación
+# Mode: training — Training Evaluation
 
-Para cada curso/cert que el candidato pregunte, evaluar 6 dimensiones:
+For each course or certification the user asks about, evaluate six dimensions:
 
-| Dimensión | Qué evalúa |
-|-----------|------------|
-| Alineación North Star | ¿Acerca o aleja del objetivo? |
-| Señal recruiter | ¿Qué piensan HMs al ver esto en un CV? |
-| Tiempo y esfuerzo | Semanas × horas/semana |
-| Coste de oportunidad | ¿Qué no puede hacer durante ese tiempo? |
-| Riesgos | ¿Contenido outdated? ¿Brand débil? ¿Demasiado básico? |
-| Entregable portfolio | ¿Produce un artefacto demostrable? |
+| Dimension | What it evaluates |
+|-----------|-------------------|
+| North Star alignment | does it move the user closer to the target? |
+| Recruiter signal | how would hiring managers read it on the CV? |
+| Time and effort | weeks × hours per week |
+| Opportunity cost | what could the user build or ship instead? |
+| Risks | outdated content, weak brand, too basic |
+| Portfolio output | does it create a demonstrable artifact? |
 
-## Veredictos
+## Verdicts
 
-- **HACER** → plan de 4-12 semanas con entregables semanales y scoreboard
-- **NO HACER** → alternativa mejor con justificación
-- **HACER CON TIMEBOX** (máx X semanas) → plan condensado, solo lo esencial
+- `DO IT` -> 4-12 week plan with weekly deliverables and scorecard
+- `DO NOT DO IT` -> better alternative with justification
+- `TIMEBOX IT` -> compressed plan, essentials only
 
-## Prioridad
+## Priority
 
-Formación que mejore credibilidad en "production-grade AI":
-1. Evals y testing de LLMs
-2. Observability y monitoring
-3. Cost/reliability trade-offs
-4. AI governance y safety
-5. Enterprise AI architecture
+Prefer training that increases credibility for real Drupal delivery, architecture, migration, performance, and client-facing technical work.
