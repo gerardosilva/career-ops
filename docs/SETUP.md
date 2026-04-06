@@ -2,79 +2,73 @@
 
 ## Prerequisites
 
-- [Claude Code](https://claude.ai/code) installed and configured
-- Node.js 18+ (for PDF generation and utility scripts)
-- (Optional) Go 1.21+ (for the dashboard TUI)
+- Claude Code
+- Node.js 18+
+- Playwright Chromium
+- Optional: Go 1.21+ for the dashboard
 
-## Quick Start (5 steps)
-
-### 1. Clone and install
+## Install
 
 ```bash
 git clone https://github.com/santifer/career-ops.git
 cd career-ops
 npm install
-npx playwright install chromium   # Required for PDF generation
+npx playwright install chromium
 ```
 
-### 2. Configure your profile
+## Configure
 
 ```bash
 cp config/profile.example.yml config/profile.yml
-```
-
-Edit `config/profile.yml` with your personal details: name, email, target roles, narrative, proof points.
-
-### 3. Add your CV
-
-Create `cv.md` in the project root with your full CV in markdown format. This is the source of truth for all evaluations and PDFs.
-
-(Optional) Create `article-digest.md` with proof points from your portfolio projects/articles.
-
-### 4. Configure portals
-
-```bash
 cp templates/portals.example.yml portals.yml
 ```
 
-Edit `portals.yml`:
-- Update `title_filter.positive` with keywords matching your target roles
-- Add companies you want to track in `tracked_companies`
-- Customize `search_queries` for your preferred job boards
+Then create:
 
-### 5. Start using
+- `cv.md`
+- `article-digest.md` if you have case studies, project summaries, or measurable wins
 
-Open Claude Code in this directory:
+## What To Put In `profile.yml`
+
+- full-time target roles
+- contract and freelance target roles
+- rate and salary expectations
+- preferred industries
+- timezone and remote constraints
+- proof points and positioning
+
+## What To Put In `portals.yml`
+
+- Drupal and adjacent keywords
+- job boards and freelance platforms you care about
+- agencies, consultancies, vendors, and product companies to track
+
+## First Run
+
+Open Claude Code in the repo and give it one real opportunity:
 
 ```bash
 claude
 ```
 
-Then paste a job offer URL or description. Career-ops will automatically evaluate it, generate a report, create a tailored PDF, and track it.
+Examples:
 
-## Available Commands
+- paste a job description
+- paste an Upwork brief
+- paste a referral note
+- run `/career-ops scan`
 
-| Action | How |
-|--------|-----|
-| Evaluate an offer | Paste a URL or JD text |
-| Search for offers | `/career-ops scan` |
-| Process pending URLs | `/career-ops pipeline` |
-| Generate a PDF | `/career-ops pdf` |
-| Batch evaluate | `/career-ops batch` |
-| Check tracker status | `/career-ops tracker` |
-| Fill application form | `/career-ops apply` |
-
-## Verify Setup
+## Validation
 
 ```bash
-node cv-sync-check.mjs      # Check configuration
-node verify-pipeline.mjs     # Check pipeline integrity
+node cv-sync-check.mjs
+node verify-pipeline.mjs
 ```
 
-## Build Dashboard (Optional)
+## Optional Dashboard
 
 ```bash
 cd dashboard
 go build -o career-dashboard .
-./career-dashboard            # Opens TUI pipeline viewer
+./career-dashboard
 ```

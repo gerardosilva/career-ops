@@ -1,56 +1,50 @@
 # Career-Ops — Canonical States
-# Source of truth for career-ops (writer) and dashboard (reader).
-# Both systems MUST use these exact states.
-#
-# Rule: The status field in applications.md must contain EXACTLY
-# one of these values (case-insensitive). No markdown bold (**),
-# no dates, no extra text. Dates go in the date column.
 
 states:
-  - id: evaluated
-    label: Evaluated
-    aliases: [evaluada]
-    description: Offer evaluated with report, pending decision
-    dashboard_group: evaluated
+  - id: qualified
+    label: Qualified
+    aliases: [calificado, evaluada, evaluated]
+    description: Opportunity scored and worth keeping in view
+    dashboard_group: qualified
 
-  - id: applied
-    label: Applied
-    aliases: [aplicado, enviada, aplicada, sent]
-    description: Application submitted
-    dashboard_group: applied
+  - id: reached_out
+    label: Reached Out
+    aliases: [contactado, respondido, responded]
+    description: Outbound or follow-up contact sent
+    dashboard_group: reached_out
 
-  - id: responded
-    label: Responded
-    aliases: [respondido]
-    description: Company has responded (not yet interview)
-    dashboard_group: responded
+  - id: submitted
+    label: Submitted
+    aliases: [aplicado, applied, proposal sent, enviada, aplicada]
+    description: Application, proposal, or capability package submitted
+    dashboard_group: submitted
 
-  - id: interview
-    label: Interview
-    aliases: [entrevista]
-    description: Active interview process
-    dashboard_group: interview
+  - id: in_process
+    label: In Process
+    aliases: [entrevista, interview, discovery, interview process]
+    description: Discovery, interviews, or active evaluation is underway
+    dashboard_group: in_process
 
-  - id: offer
-    label: Offer
-    aliases: [oferta]
-    description: Offer received
-    dashboard_group: offer
+  - id: negotiating
+    label: Negotiating
+    aliases: [negociando, offer, oferta]
+    description: Terms, scope, or compensation are being negotiated
+    dashboard_group: negotiating
 
-  - id: rejected
-    label: Rejected
-    aliases: [rechazado, rechazada]
-    description: Rejected by company
-    dashboard_group: rejected
+  - id: won
+    label: Won
+    aliases: [ganado, closed won, signed]
+    description: Role accepted or project signed
+    dashboard_group: won
 
-  - id: discarded
-    label: Discarded
-    aliases: [descartado, descartada, cerrada, cancelada]
-    description: Discarded by candidate or offer closed
-    dashboard_group: discarded
+  - id: lost
+    label: Lost
+    aliases: [perdido, rejected, rechazado, rechazada]
+    description: Opportunity lost or rejected
+    dashboard_group: lost
 
-  - id: skip
-    label: SKIP
-    aliases: [no_aplicar, no aplicar, skip, monitor]
-    description: Doesn't fit, don't apply
-    dashboard_group: skip
+  - id: parked
+    label: Parked
+    aliases: [aparcado, descartado, descartada, no aplicar, skip, monitor, hold]
+    description: Not worth pursuing now
+    dashboard_group: parked

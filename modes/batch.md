@@ -1,4 +1,4 @@
-# Modo: batch — Procesamiento Masivo de Ofertas
+# Modo: batch — Procesamiento Masivo de Oportunidades
 
 Dos modos de uso: **conductor --chrome** (navega portales en tiempo real) o **standalone** (script para URLs ya recolectadas).
 
@@ -10,10 +10,10 @@ Claude Conductor (claude --chrome --dangerously-skip-permissions)
   │  Chrome: navega portales (sesiones logueadas)
   │  Lee DOM directo — el usuario ve todo en tiempo real
   │
-  ├─ Oferta 1: lee JD del DOM + URL
+  ├─ Oportunidad 1: lee brief o JD del DOM + URL
   │    └─► claude -p worker → report .md + PDF + tracker-line
   │
-  ├─ Oferta 2: click siguiente, lee JD + URL
+  ├─ Oportunidad 2: click siguiente, lee brief o JD + URL
   │    └─► claude -p worker → report .md + PDF + tracker-line
   │
   └─ Fin: merge tracker-additions → applications.md + resumen

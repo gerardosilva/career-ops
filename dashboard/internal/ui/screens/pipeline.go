@@ -60,10 +60,10 @@ const (
 // Filter modes
 const (
 	filterAll       = "all"
-	filterEvaluated = "evaluated"
-	filterApplied   = "applied"
-	filterInterview = "interview"
-	filterSkip      = "skip"
+	filterQualified = "qualified"
+	filterSubmitted = "submitted"
+	filterInProcess = "in_process"
+	filterParked    = "parked"
 	filterTop       = "top"
 )
 
@@ -74,19 +74,19 @@ type pipelineTab struct {
 
 var pipelineTabs = []pipelineTab{
 	{filterAll, "ALL"},
-	{filterEvaluated, "EVALUATED"},
-	{filterApplied, "APPLIED"},
-	{filterInterview, "INTERVIEW"},
+	{filterQualified, "QUALIFIED"},
+	{filterSubmitted, "SUBMITTED"},
+	{filterInProcess, "IN PROCESS"},
 	{filterTop, "TOP \u22654"},
-	{filterSkip, "SKIP"},
+	{filterParked, "PARKED"},
 }
 
 var sortCycle = []string{sortScore, sortDate, sortCompany, sortStatus}
 
-var statusOptions = []string{"Evaluated", "Applied", "Responded", "Interview", "Offer", "Rejected", "Discarded", "SKIP"}
+var statusOptions = []string{"Qualified", "Reached Out", "Submitted", "In Process", "Negotiating", "Won", "Lost", "Parked"}
 
 // statusGroupOrder defines display order for grouped view.
-var statusGroupOrder = []string{"interview", "offer", "responded", "applied", "evaluated", "skip", "rejected", "discarded"}
+var statusGroupOrder = []string{"in_process", "negotiating", "submitted", "reached_out", "qualified", "won", "parked", "lost"}
 
 // PipelineModel implements the career pipeline dashboard screen.
 type PipelineModel struct {
@@ -494,9 +494,9 @@ func (m PipelineModel) renderHeader() string {
 
 	right := lipgloss.NewStyle().Foreground(m.theme.Subtext)
 	avg := fmt.Sprintf("%.1f", m.metrics.AvgScore)
-	info := right.Render(fmt.Sprintf("%d offers | Avg %s/5", m.metrics.Total, avg))
+	info := right.Render(fmt.Sprintf("%d opportunities | Avg %s/5", m.metrics.Total, avg))
 
-	title := lipgloss.NewStyle().Bold(true).Foreground(m.theme.Blue).Render("CAREER PIPELINE")
+	title := lipgloss.NewStyle().Bold(true).Foreground(m.theme.Blue).Render("DRUPAL PIPELINE")
 	gap := m.width - lipgloss.Width(title) - lipgloss.Width(info) - 4
 	if gap < 1 {
 		gap = 1
@@ -545,7 +545,7 @@ func (m PipelineModel) countForFilter(filter string) int {
 		case filterAll:
 			count++
 		case filterTop:
-			if app.Score >= 4.0 && norm != "no_aplicar" {
+			if app.Score >= 4.0 && norm != "parked" {
 				count++
 			}
 		default:
@@ -597,7 +597,7 @@ func (m PipelineModel) renderBody() string {
 		emptyStyle := lipgloss.NewStyle().
 			Foreground(m.theme.Subtext).
 			Padding(1, 2)
-		return emptyStyle.Render("No offers match this filter")
+		return emptyStyle.Render("No opportunities match this filter")
 	}
 
 	var lines []string
@@ -760,7 +760,7 @@ func (m PipelineModel) renderHelp() string {
 				keyStyle.Render("Esc") + descStyle.Render(" cancel"))
 	}
 
-	brand := lipgloss.NewStyle().Foreground(m.theme.Overlay).Render("career-ops by santifer.io")
+	brand := lipgloss.NewStyle().Foreground(m.theme.Overlay).Render("career-ops drupal fork")
 
 	keys := keyStyle.Render("↑↓") + descStyle.Render(" nav  ") +
 		keyStyle.Render("←→") + descStyle.Render(" tabs  ") +
@@ -826,14 +826,14 @@ func (m PipelineModel) scoreStyle(score float64) lipgloss.Style {
 
 func (m PipelineModel) statusColorMap() map[string]lipgloss.Color {
 	return map[string]lipgloss.Color{
-		"interview": m.theme.Green,
-		"offer":     m.theme.Green,
-		"applied":   m.theme.Sky,
-		"responded": m.theme.Blue,
-		"evaluated": m.theme.Text,
-		"skip":      m.theme.Red,
-		"rejected":  m.theme.Subtext,
-		"discarded": m.theme.Subtext,
+		"in_process":  m.theme.Green,
+		"negotiating": m.theme.Yellow,
+		"submitted":   m.theme.Sky,
+		"reached_out": m.theme.Blue,
+		"qualified":   m.theme.Text,
+		"won":         m.theme.Green,
+		"parked":      m.theme.Red,
+		"lost":        m.theme.Subtext,
 	}
 }
 
@@ -849,22 +849,22 @@ func (m PipelineModel) countByNormStatus(status string) int {
 
 func statusLabel(norm string) string {
 	switch norm {
-	case "interview":
-		return "Interview"
-	case "offer":
-		return "Offer"
-	case "responded":
-		return "Responded"
-	case "applied":
-		return "Applied"
-	case "evaluated":
-		return "Evaluated"
-	case "skip":
-		return "Skip"
-	case "rejected":
-		return "Rejected"
-	case "discarded":
-		return "Discarded"
+	case "in_process":
+		return "In Process"
+	case "negotiating":
+		return "Negotiating"
+	case "reached_out":
+		return "Reached Out"
+	case "submitted":
+		return "Submitted"
+	case "qualified":
+		return "Qualified"
+	case "won":
+		return "Won"
+	case "parked":
+		return "Parked"
+	case "lost":
+		return "Lost"
 	default:
 		return norm
 	}

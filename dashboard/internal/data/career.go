@@ -450,7 +450,7 @@ func ComputeMetrics(apps []model.CareerApplication) model.PipelineMetrics {
 		if app.HasPDF {
 			m.WithPDF++
 		}
-		if status != "skip" && status != "rejected" && status != "discarded" {
+		if status != "parked" && status != "lost" && status != "won" {
 			m.Actionable++
 		}
 	}
@@ -475,23 +475,24 @@ func NormalizeStatus(raw string) string {
 
 	switch {
 	// Most restrictive first — accepts both English and Spanish
-	case strings.Contains(s, "no aplicar") || strings.Contains(s, "no_aplicar") || s == "skip" || strings.Contains(s, "geo blocker"):
-		return "skip"
-	case strings.Contains(s, "interview") || strings.Contains(s, "entrevista"):
-		return "interview"
-	case s == "offer" || strings.Contains(s, "oferta"):
-		return "offer"
-	case strings.Contains(s, "responded") || strings.Contains(s, "respondido"):
-		return "responded"
-	case strings.Contains(s, "applied") || strings.Contains(s, "aplicado") || s == "enviada" || s == "aplicada" || s == "sent":
-		return "applied"
-	case strings.Contains(s, "rejected") || strings.Contains(s, "rechazado") || s == "rechazada":
-		return "rejected"
-	case strings.Contains(s, "discarded") || strings.Contains(s, "descartado") || s == "descartada" || s == "cerrada" || s == "cancelada" ||
-		strings.HasPrefix(s, "duplicado") || strings.HasPrefix(s, "dup"):
-		return "discarded"
-	case strings.Contains(s, "evaluated") || strings.Contains(s, "evaluada") || s == "condicional" || s == "hold" || s == "monitor" || s == "evaluar" || s == "verificar":
-		return "evaluated"
+	case strings.Contains(s, "won") || strings.Contains(s, "ganado") || strings.Contains(s, "signed"):
+		return "won"
+	case strings.Contains(s, "negotiating") || strings.Contains(s, "negociando") || s == "offer" || strings.Contains(s, "oferta"):
+		return "negotiating"
+	case strings.Contains(s, "in process") || strings.Contains(s, "interview") || strings.Contains(s, "entrevista") || strings.Contains(s, "discovery"):
+		return "in_process"
+	case strings.Contains(s, "reached out") || strings.Contains(s, "responded") || strings.Contains(s, "respondido") || strings.Contains(s, "contactado"):
+		return "reached_out"
+	case strings.Contains(s, "submitted") || strings.Contains(s, "applied") || strings.Contains(s, "aplicado") || s == "enviada" || s == "aplicada" || s == "sent":
+		return "submitted"
+	case strings.Contains(s, "lost") || strings.Contains(s, "rejected") || strings.Contains(s, "rechazado") || s == "rechazada" || strings.Contains(s, "perdido"):
+		return "lost"
+	case strings.Contains(s, "parked") || strings.Contains(s, "discarded") || strings.Contains(s, "descartado") || s == "descartada" || s == "cerrada" || s == "cancelada" ||
+		strings.Contains(s, "no aplicar") || strings.Contains(s, "no_aplicar") || s == "skip" || strings.Contains(s, "geo blocker") ||
+		strings.HasPrefix(s, "duplicado") || strings.HasPrefix(s, "dup") || s == "hold" || s == "monitor":
+		return "parked"
+	case strings.Contains(s, "qualified") || strings.Contains(s, "evaluated") || strings.Contains(s, "evaluada") || s == "condicional" || s == "evaluar" || s == "verificar":
+		return "qualified"
 	default:
 		return s
 	}
@@ -582,21 +583,21 @@ func cleanTableCell(s string) string {
 // StatusPriority returns the sort priority for a status (lower = higher priority).
 func StatusPriority(status string) int {
 	switch NormalizeStatus(status) {
-	case "interview":
+	case "in_process":
 		return 0
-	case "offer":
+	case "negotiating":
 		return 1
-	case "responded":
+	case "submitted":
 		return 2
-	case "applied":
+	case "reached_out":
 		return 3
-	case "evaluated":
+	case "qualified":
 		return 4
-	case "skip":
+	case "won":
 		return 5
-	case "rejected":
+	case "parked":
 		return 6
-	case "discarded":
+	case "lost":
 		return 7
 	default:
 		return 8

@@ -1,6 +1,6 @@
 ---
 name: career-ops
-description: AI job search command center -- evaluate offers, generate CVs, scan portals, track applications
+description: Drupal opportunity command center -- evaluate jobs, contracts, freelance leads, proposals, scan sources, and track the pipeline.
 user_invocable: true
 args: mode
 ---
@@ -13,8 +13,8 @@ Determine the mode from `{{mode}}`:
 
 | Input | Mode |
 |-------|------|
-| (empty / no args) | `discovery` -- Show command menu |
-| JD text or URL (no sub-command) | **`auto-pipeline`** |
+| (empty / no args) | `discovery` |
+| role text, brief, lead note, or URL | `auto-pipeline` |
 | `oferta` | `oferta` |
 | `ofertas` | `ofertas` |
 | `contacto` | `contacto` |
@@ -28,63 +28,39 @@ Determine the mode from `{{mode}}`:
 | `scan` | `scan` |
 | `batch` | `batch` |
 
-**Auto-pipeline detection:** If `{{mode}}` is not a known sub-command AND contains JD text (keywords: "responsibilities", "requirements", "qualifications", "about the role", "we're looking for", company name + role) or a URL to a JD, execute `auto-pipeline`.
+If `{{mode}}` is not a known sub-command and looks like a JD, contract brief, RFP, lead note, or opportunity URL, run `auto-pipeline`.
 
-If `{{mode}}` is not a sub-command AND doesn't look like a JD, show discovery.
-
----
-
-## Discovery Mode (no arguments)
+## Discovery Mode
 
 Show this menu:
 
-```
-career-ops -- Command Center
+```text
+career-ops -- Drupal Opportunity Pipeline
 
 Available commands:
-  /career-ops {JD}      → AUTO-PIPELINE: evaluate + report + PDF + tracker (paste text or URL)
-  /career-ops pipeline  → Process pending URLs from inbox (data/pipeline.md)
-  /career-ops oferta    → Evaluation only A-F (no auto PDF)
-  /career-ops ofertas   → Compare and rank multiple offers
-  /career-ops contacto  → LinkedIn power move: find contacts + draft message
-  /career-ops deep      → Deep research prompt about company
-  /career-ops pdf       → PDF only, ATS-optimized CV
-  /career-ops training  → Evaluate course/cert against North Star
-  /career-ops project   → Evaluate portfolio project idea
-  /career-ops tracker   → Application status overview
-  /career-ops apply     → Live application assistant (reads form + generates answers)
-  /career-ops scan      → Scan portals and discover new offers
-  /career-ops batch     → Batch processing with parallel workers
-
-Inbox: add URLs to data/pipeline.md → /career-ops pipeline
-Or paste a JD directly to run the full pipeline.
+  /career-ops {input}     -> Auto-pipeline for a role, contract, or lead
+  /career-ops pipeline    -> Process pending URLs from data/pipeline.md
+  /career-ops oferta      -> Evaluate one opportunity
+  /career-ops contacto    -> Outreach or follow-up message
+  /career-ops deep        -> Deep company or client research
+  /career-ops pdf         -> Tailored CV or capability PDF
+  /career-ops tracker     -> Opportunity tracker overview
+  /career-ops apply       -> Live form or proposal assistant
+  /career-ops scan        -> Scan sources for new opportunities
+  /career-ops batch       -> Batch process opportunities
 ```
 
----
+## Context Loading
 
-## Context Loading by Mode
+For `auto-pipeline`, `oferta`, `ofertas`, `pdf`, `contacto`, `apply`, `pipeline`, `scan`, and `batch`:
 
-After determining the mode, load the necessary files before executing:
+- read `CLAUDE.md`
+- read `modes/_shared.md`
+- read `modes/{mode}.md`
 
-### Modes that require `_shared.md` + their mode file:
-Read `modes/_shared.md` + `modes/{mode}.md`
+For `tracker`, `deep`, `training`, and `project`:
 
-Applies to: `auto-pipeline`, `oferta`, `ofertas`, `pdf`, `contacto`, `apply`, `pipeline`, `scan`, `batch`
+- read `CLAUDE.md`
+- read `modes/{mode}.md`
 
-### Standalone modes (only their mode file):
-Read `modes/{mode}.md`
-
-Applies to: `tracker`, `deep`, `training`, `project`
-
-### Modes delegated to subagent:
-For `scan`, `apply` (with Playwright), and `pipeline` (3+ URLs): launch as Agent with the content of `_shared.md` + `modes/{mode}.md` injected into the subagent prompt.
-
-```
-Agent(
-  subagent_type="general-purpose",
-  prompt="[content of modes/_shared.md]\n\n[content of modes/{mode}.md]\n\n[invocation-specific data]",
-  description="career-ops {mode}"
-)
-```
-
-Execute the instructions from the loaded mode file.
+Before executing the mode, confirm that `cv.md`, `config/profile.yml`, and `portals.yml` exist. If not, follow onboarding from `CLAUDE.md`.

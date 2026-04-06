@@ -3,7 +3,7 @@
  * normalize-statuses.mjs — Clean non-canonical states in applications.md
  *
  * Maps all non-canonical statuses to canonical ones per states.yml:
- *   Evaluada, Aplicado, Respondido, Entrevista, Oferta, Rechazado, Descartado, NO APLICAR
+ *   Qualified, Reached Out, Submitted, In Process, Negotiating, Won, Lost, Parked
  *
  * Also strips markdown bold (**) and dates from the status field,
  * moving DUPLICADO info to the notes column.
@@ -27,66 +27,71 @@ function normalizeStatus(raw) {
   let s = raw.replace(/\*\*/g, '').trim();
   const lower = s.toLowerCase();
 
-  // DUPLICADO variants → Descartado
+  // DUPLICADO variants -> Parked
   if (/^duplicado/i.test(s) || /^dup\b/i.test(s)) {
-    return { status: 'Descartado', moveToNotes: raw.trim() };
+    return { status: 'Parked', moveToNotes: raw.trim() };
   }
 
-  // CERRADA → Descartado
-  if (/^cerrada$/i.test(s)) return { status: 'Descartado' };
+  // CERRADA -> Parked
+  if (/^cerrada$/i.test(s)) return { status: 'Parked' };
 
-  // Cancelada (possibly with date) → Descartado
-  if (/^cancelada/i.test(s)) return { status: 'Descartado' };
+  // Cancelada (possibly with date) -> Parked
+  if (/^cancelada/i.test(s)) return { status: 'Parked' };
 
-  // Descartada → Descartado
-  if (/^descartada$/i.test(s)) return { status: 'Descartado' };
+  // Descartada -> Parked
+  if (/^descartada$/i.test(s)) return { status: 'Parked' };
 
-  // Rechazada → Rechazado
-  if (/^rechazada$/i.test(s)) return { status: 'Rechazado' };
+  // Rechazada -> Lost
+  if (/^rechazada$/i.test(s)) return { status: 'Lost' };
 
-  // Rechazado with date → Rechazado (strip date)
-  if (/^rechazado\s+\d{4}/i.test(s)) return { status: 'Rechazado' };
+  // Rechazado with date -> Lost (strip date)
+  if (/^rechazado\s+\d{4}/i.test(s)) return { status: 'Lost' };
 
-  // Aplicado with date → Aplicado (strip date)
-  if (/^aplicado\s+\d{4}/i.test(s)) return { status: 'Aplicado' };
+  // Aplicado with date -> Submitted (strip date)
+  if (/^aplicado\s+\d{4}/i.test(s)) return { status: 'Submitted' };
 
-  // CONDICIONAL → Evaluada
-  if (/^condicional$/i.test(s)) return { status: 'Evaluada' };
+  // CONDICIONAL -> Qualified
+  if (/^condicional$/i.test(s)) return { status: 'Qualified' };
 
-  // HOLD → Evaluada
-  if (/^hold$/i.test(s)) return { status: 'Evaluada' };
+  // HOLD -> Parked
+  if (/^hold$/i.test(s)) return { status: 'Parked' };
 
-  // MONITOR → Evaluada
-  if (/^monitor$/i.test(s)) return { status: 'Evaluada' };
+  // MONITOR -> Parked
+  if (/^monitor$/i.test(s)) return { status: 'Parked' };
 
-  // EVALUAR → Evaluada
-  if (/^evaluar$/i.test(s)) return { status: 'Evaluada' };
+  // EVALUAR -> Qualified
+  if (/^evaluar$/i.test(s)) return { status: 'Qualified' };
 
-  // Verificar → Evaluada
-  if (/^verificar$/i.test(s)) return { status: 'Evaluada' };
+  // Verificar -> Qualified
+  if (/^verificar$/i.test(s)) return { status: 'Qualified' };
 
-  // GEO BLOCKER → NO APLICAR
-  if (/geo.?blocker/i.test(s)) return { status: 'NO APLICAR' };
+  // GEO BLOCKER -> Parked
+  if (/geo.?blocker/i.test(s)) return { status: 'Parked' };
 
-  // Repost #NNN → Descartado
-  if (/^repost/i.test(s)) return { status: 'Descartado', moveToNotes: raw.trim() };
+  // Repost #NNN -> Parked
+  if (/^repost/i.test(s)) return { status: 'Parked', moveToNotes: raw.trim() };
 
-  // "—" (em dash, no status) → Descartado
-  if (s === '—' || s === '-' || s === '') return { status: 'Descartado' };
+  // Blank status -> Parked
+  if (s === '—' || s === '-' || s === '') return { status: 'Parked' };
 
   // Already canonical — just fix casing/bold
   const canonical = [
-    'Evaluada', 'Aplicado', 'Respondido', 'Entrevista',
-    'Oferta', 'Rechazado', 'Descartado', 'NO APLICAR',
+    'Qualified', 'Reached Out', 'Submitted', 'In Process',
+    'Negotiating', 'Won', 'Lost', 'Parked',
   ];
   for (const c of canonical) {
     if (lower === c.toLowerCase()) return { status: c };
   }
 
   // Aliases from states.yml
-  if (['enviada', 'aplicada', 'applied', 'sent'].includes(lower)) return { status: 'Aplicado' };
-  if (['cerrada', 'descartada'].includes(lower)) return { status: 'Descartado' };
-  if (['no aplicar', 'no_aplicar', 'skip'].includes(lower)) return { status: 'NO APLICAR' };
+  if (['enviada', 'aplicada', 'applied', 'sent', 'proposal sent'].includes(lower)) return { status: 'Submitted' };
+  if (['cerrada', 'descartada', 'no aplicar', 'no_aplicar', 'skip'].includes(lower)) return { status: 'Parked' };
+  if (['evaluada', 'evaluated'].includes(lower)) return { status: 'Qualified' };
+  if (['respondido', 'responded', 'contactado'].includes(lower)) return { status: 'Reached Out' };
+  if (['entrevista', 'interview', 'discovery'].includes(lower)) return { status: 'In Process' };
+  if (['oferta', 'offer', 'negociando'].includes(lower)) return { status: 'Negotiating' };
+  if (['ganado', 'signed', 'closed won'].includes(lower)) return { status: 'Won' };
+  if (['perdido', 'rejected', 'rechazado', 'rechazada'].includes(lower)) return { status: 'Lost' };
 
   // Unknown — flag it
   return { status: null, unknown: true };

@@ -1,23 +1,25 @@
-# Modo: tracker — Tracker de Aplicaciones
+# Modo: tracker — Tracker de Oportunidades
 
 Lee y muestra `data/applications.md`.
 
-**Formato del tracker:**
-```markdown
-| # | Fecha | Empresa | Rol | Score | Estado | PDF | Report |
-```
+## Estados
 
-Estados posibles: `Evaluada` → `Aplicado` → `Respondido` → `Contacto` → `Entrevista` → `Oferta` / `Rechazada` / `Descartada` / `NO APLICAR`
+`Qualified` -> `Reached Out` -> `Submitted` -> `In Process` -> `Negotiating` -> `Won`
 
-- `Aplicado` = el candidato envió su candidatura
-- `Respondido` = Un recruiter/empresa contactó y el candidato respondió (inbound)
-- `Contacto` = El candidato contactó proactivamente a alguien de la empresa (outbound, ej: LinkedIn power move)
+Estados terminales:
+
+- `Lost`
+- `Parked`
+
+## Significado
+
+- `Qualified`: vale la pena seguirla
+- `Reached Out`: hubo outreach o follow-up
+- `Submitted`: aplicacion, propuesta o capability pack enviado
+- `In Process`: discovery, entrevistas o evaluacion activa
+- `Negotiating`: terminos, alcance o compensacion en discusion
+- `Won`: proyecto cerrado o rol aceptado
+- `Lost`: se perdio o rechazaron
+- `Parked`: no se persigue por ahora
 
 Si el usuario pide actualizar un estado, editar la fila correspondiente.
-
-Mostrar también estadísticas:
-- Total de aplicaciones
-- Por estado
-- Score promedio
-- % con PDF generado
-- % con report generado

@@ -28,7 +28,7 @@ const DRY_RUN = process.argv.includes('--dry-run');
 const VERIFY = process.argv.includes('--verify');
 
 // Canonical states and aliases
-const CANONICAL_STATES = ['Evaluada', 'Aplicado', 'Respondido', 'Entrevista', 'Oferta', 'Rechazado', 'Descartado', 'NO APLICAR'];
+const CANONICAL_STATES = ['Qualified', 'Reached Out', 'Submitted', 'In Process', 'Negotiating', 'Won', 'Lost', 'Parked'];
 
 function validateStatus(status) {
   const clean = status.replace(/\*\*/g, '').replace(/\s+\d{4}-\d{2}-\d{2}.*$/, '').trim();
@@ -40,21 +40,48 @@ function validateStatus(status) {
 
   // Aliases
   const aliases = {
-    'enviada': 'Aplicado', 'aplicada': 'Aplicado', 'applied': 'Aplicado', 'sent': 'Aplicado',
-    'cerrada': 'Descartado', 'descartada': 'Descartado', 'cancelada': 'Descartado',
-    'rechazada': 'Rechazado',
-    'no aplicar': 'NO APLICAR', 'no_aplicar': 'NO APLICAR', 'skip': 'NO APLICAR', 'monitor': 'NO APLICAR',
-    'condicional': 'Evaluada', 'hold': 'Evaluada', 'evaluar': 'Evaluada', 'verificar': 'Evaluada',
-    'geo blocker': 'NO APLICAR',
+    'enviada': 'Submitted',
+    'aplicada': 'Submitted',
+    'applied': 'Submitted',
+    'sent': 'Submitted',
+    'proposal sent': 'Submitted',
+    'cerrada': 'Parked',
+    'descartada': 'Parked',
+    'cancelada': 'Parked',
+    'rechazada': 'Lost',
+    'rejected': 'Lost',
+    'no aplicar': 'Parked',
+    'no_aplicar': 'Parked',
+    'skip': 'Parked',
+    'monitor': 'Parked',
+    'condicional': 'Qualified',
+    'hold': 'Parked',
+    'evaluar': 'Qualified',
+    'verificar': 'Qualified',
+    'geo blocker': 'Parked',
+    'evaluada': 'Qualified',
+    'evaluated': 'Qualified',
+    'respondido': 'Reached Out',
+    'responded': 'Reached Out',
+    'aplicado': 'Submitted',
+    'entrevista': 'In Process',
+    'interview': 'In Process',
+    'oferta': 'Negotiating',
+    'offer': 'Negotiating',
+    'negociando': 'Negotiating',
+    'ganado': 'Won',
+    'signed': 'Won',
+    'closed won': 'Won',
+    'perdido': 'Lost',
   };
 
   if (aliases[lower]) return aliases[lower];
 
-  // DUPLICADO/Repost → Descartado
-  if (/^(duplicado|dup|repost)/i.test(lower)) return 'Descartado';
+  // DUPLICADO/Repost -> Parked
+  if (/^(duplicado|dup|repost)/i.test(lower)) return 'Parked';
 
-  console.warn(`⚠️  Non-canonical status "${status}" → defaulting to "Evaluada"`);
-  return 'Evaluada';
+  console.warn(`⚠️  Non-canonical status "${status}" -> defaulting to "Qualified"`);
+  return 'Qualified';
 }
 
 function normalizeCompany(name) {
@@ -134,8 +161,8 @@ function parseTsvContent(content, filename) {
     const col5 = parts[5].trim();
     const col4LooksLikeScore = /^\d+\.?\d*\/5$/.test(col4) || col4 === 'N/A' || col4 === 'DUP';
     const col5LooksLikeScore = /^\d+\.?\d*\/5$/.test(col5) || col5 === 'N/A' || col5 === 'DUP';
-    const col4LooksLikeStatus = /^(evaluada|aplicado|respondido|entrevista|oferta|rechazado|descartado|no aplicar|cerrada|duplicado|repost|condicional|hold|monitor)/i.test(col4);
-    const col5LooksLikeStatus = /^(evaluada|aplicado|respondido|entrevista|oferta|rechazado|descartado|no aplicar|cerrada|duplicado|repost|condicional|hold|monitor)/i.test(col5);
+    const col4LooksLikeStatus = /^(qualified|reached out|submitted|in process|negotiating|won|lost|parked|evaluada|aplicado|respondido|entrevista|oferta|rechazado|descartado|no aplicar|cerrada|duplicado|repost|condicional|hold|monitor)/i.test(col4);
+    const col5LooksLikeStatus = /^(qualified|reached out|submitted|in process|negotiating|won|lost|parked|evaluada|aplicado|respondido|entrevista|oferta|rechazado|descartado|no aplicar|cerrada|duplicado|repost|condicional|hold|monitor)/i.test(col5);
 
     let statusCol, scoreCol;
     if (col4LooksLikeStatus && !col4LooksLikeScore) {
