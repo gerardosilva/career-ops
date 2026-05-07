@@ -20,7 +20,7 @@ jds/*
 
 # User config
 config/profile.yml
-portals.yml
+config/secrets.env
 
 # Generated
 .resolved-prompt-*

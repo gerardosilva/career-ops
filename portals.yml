@@ -1,0 +1,300 @@
+## ─────────────────────────────────────────────
+## SCAN METHOD NOTES
+## ─────────────────────────────────────────────
+## Primary:   rss_feeds — always fresh, active listings only
+## Secondary: search_queries via Brave API (freshness=pm, NO site: prefix)
+##            Read BRAVE_API_KEY from config/secrets.env
+## Disabled:  site: prefixed queries — Brave returns bad_results for these
+## ─────────────────────────────────────────────
+
+rss_feeds:
+  - name: Drupal Jobs Board
+    url: https://jobs.drupal.org/all-jobs/feed
+    filter_title: drupal|php|symfony
+    enabled: true
+
+  - name: LaraJobs
+    url: https://larajobs.com/feed
+    filter_title: laravel|php
+    enabled: true
+
+  - name: We Work Remotely — Programming
+    url: https://weworkremotely.com/categories/remote-programming-jobs.rss
+    filter_title: drupal|php|laravel|symfony
+    enabled: true
+
+title_filter:
+  positive:
+    - "Drupal"
+    - "PHP"
+    - "Symfony"
+    - "Laravel"
+    - "Acquia"
+    - "CMS"
+    - "Headless"
+    - "Decoupled"
+    - "Migration"
+    - "Technical Lead"
+    - "Tech Lead"
+    - "Solutions Architect"
+    - "Full Stack"
+    - "Backend"
+    - "Web Platform"
+    - "Freelance"
+    - "Contract"
+    - "Contractor"
+    - "Consultant"
+    - "Accessibility"
+    - "Gov"
+    - "Government"
+    - "Higher Education"
+  negative:
+    - "WordPress-only"
+    - "Shopify"
+    - "Magento"
+    - "Salesforce"
+    - "iOS"
+    - "Android"
+    - "Junior"
+    - "Intern"
+  seniority_boost:
+    - "Senior"
+    - "Lead"
+    - "Principal"
+    - "Staff"
+    - "Architect"
+
+geo_policy:
+  remote_required: true
+  # Accept "worldwide remote" and "remote" jobs unless they explicitly exclude Mexico/LATAM
+  assume_worldwide_remote_ok: true
+  allowed_worker_locations:
+    - "Mexico"
+    - "LATAM"
+    - "Latin America"
+    - "worldwide"
+    - "anywhere"
+    - "global"
+  disallowed_location_signals:
+    - "US only"
+    - "U.S. only"
+    - "Must be based in the United States"
+    - "Must be located in the US"
+    - "No international hires"
+    - "Not available in Mexico"
+    - "No candidates outside the US"
+    - "US citizens only"
+    - "requires US work authorization"
+
+banned_companies:
+  - "829 Studios"
+
+search_queries:
+  # ── Covered by RSS feed — disabled ──────────────────────────────────────
+  - name: Drupal Jobs Board — all listings
+    query: 'site:jobs.drupal.org Drupal remote'
+    enabled: false  # replaced by rss_feeds: Drupal Jobs Board
+
+  - name: Drupal Jobs Board — senior/lead
+    query: 'site:jobs.drupal.org ("Senior" OR "Lead" OR "Architect") Drupal remote'
+    enabled: false  # replaced by rss_feeds: Drupal Jobs Board
+
+  - name: We Work Remotely — Drupal
+    query: 'site:weworkremotely.com Drupal OR "Drupal Developer" remote'
+    enabled: false  # replaced by rss_feeds: We Work Remotely
+
+  # ── Brave API queries (no site: prefix — use freshness=pm) ───────────────
+  - name: Drupal — remote LATAM or worldwide
+    query: '"Drupal developer" remote job LATAM OR worldwide OR "Latin America"'
+    enabled: true
+
+  - name: Senior/Lead Drupal — remote
+    query: '"Senior Drupal" OR "Lead Drupal" OR "Drupal Architect" remote developer job'
+    enabled: true
+
+  - name: Drupal — contract or freelance
+    query: 'Drupal developer remote contract OR freelance OR contractor'
+    enabled: true
+
+  - name: PHP/Symfony — remote LATAM or worldwide
+    query: '"Symfony developer" OR "PHP Symfony" remote LATAM OR worldwide OR "Latin America"'
+    enabled: true
+
+  - name: PHP/Symfony — contract or freelance
+    query: 'Symfony OR "PHP backend" remote freelance OR contract developer'
+    enabled: true
+
+  - name: Laravel — remote LATAM or worldwide
+    query: '"Laravel developer" OR "Laravel engineer" remote LATAM OR worldwide OR "Latin America"'
+    enabled: true
+
+  - name: Laravel — contract or freelance
+    query: 'Laravel developer remote freelance OR contract'
+    enabled: true
+
+  - name: TheDropTimes — Drupal jobs
+    query: 'site:thedroptimes.com Drupal developer job remote 2026'
+    enabled: true
+
+  - name: TheDropTimes — senior/lead
+    query: 'site:thedroptimes.com ("Senior" OR "Lead" OR "Architect") Drupal remote job'
+    enabled: true
+
+  - name: RemoteOK — Drupal/PHP
+    query: 'site:remoteok.com Drupal OR "PHP Drupal" OR Acquia'
+    enabled: true
+
+  - name: Upwork — Drupal
+    query: 'site:upwork.com/freelance-jobs/ Drupal PHP'
+    enabled: true
+
+  - name: Upwork — PHP/Symfony
+    query: 'site:upwork.com/freelance-jobs/ Symfony PHP backend senior'
+    enabled: true
+
+  - name: Upwork — Laravel
+    query: 'site:upwork.com/freelance-jobs/ Laravel PHP backend senior'
+    enabled: true
+
+  - name: Malt — Drupal
+    query: 'site:malt.com "Drupal" freelance'
+    enabled: true
+
+  - name: Malt — Symfony/Laravel
+    query: 'site:malt.com "Symfony" OR "Laravel" freelance remote'
+    enabled: true
+
+  - name: Remotive — PHP/Symfony/Laravel
+    query: 'site:remotive.com "Symfony" OR "Laravel" OR "PHP backend" developer remote 2026'
+    enabled: true
+
+  - name: Remote Rocketship — Drupal/PHP/Laravel
+    query: 'site:remoterocketship.com Drupal OR Symfony OR Laravel OR "PHP developer" remote'
+    enabled: true
+
+  - name: Working Nomads — Drupal/PHP/Laravel
+    query: 'site:workingnomads.com Drupal OR Symfony OR Laravel OR "PHP developer" remote'
+    enabled: true
+
+  - name: Wellfound — PHP/Drupal/Laravel remote
+    query: 'site:wellfound.com "Symfony" OR "Laravel" OR "PHP backend" OR Drupal developer remote LATAM OR worldwide 2026'
+    enabled: true
+
+  - name: LaraJobs — Laravel remote
+    query: 'site:larajobs.com Laravel remote developer'
+    enabled: false  # replaced by rss_feeds: LaraJobs
+
+  - name: DynamiteJobs — PHP/Drupal/Laravel
+    query: 'site:dynamitejobs.com Drupal OR "PHP developer" OR Laravel remote'
+    enabled: true
+
+  - name: Get on Board — Drupal/PHP
+    query: 'site:getonbrd.com Drupal OR "PHP developer" remote'
+    enabled: false  # stale: search returns listings years old; visit site directly
+
+  - name: Get on Board — Symfony
+    query: 'site:getonbrd.com "Symfony" OR "PHP Symfony" developer remote'
+    enabled: false  # stale: search returns listings years old; visit site directly
+
+  - name: Get on Board — Laravel
+    query: 'site:getonbrd.com "Laravel" OR "PHP Laravel" developer remote'
+    enabled: false  # stale: search returns listings years old; visit site directly
+
+  - name: Wellfound — Drupal remote
+    query: 'site:wellfound.com Drupal developer remote OR "Latin America" OR LATAM 2026'
+    enabled: true
+
+  - name: Wellfound — PHP/Symfony/Laravel remote
+    query: 'site:wellfound.com "Symfony" OR "Laravel" OR "PHP backend" developer remote LATAM OR worldwide 2026'
+    enabled: true
+
+  - name: Remote Rocketship — Drupal/PHP/Laravel
+    query: 'site:remoterocketship.com Drupal OR Symfony OR Laravel OR "PHP developer" remote'
+    enabled: true
+
+  - name: LaraJobs — Laravel remote
+    query: 'site:larajobs.com Laravel remote developer'
+    enabled: true
+
+  - name: DynamiteJobs — PHP/Drupal/Laravel
+    query: 'site:dynamitejobs.com Drupal OR "PHP developer" OR Laravel remote'
+    enabled: true
+
+tracked_companies:
+  - name: Drupal Jobs Board
+    careers_url: https://jobs.drupal.org
+    scan_method: websearch
+    scan_query: 'site:jobs.drupal.org Drupal remote'
+    enabled: true
+
+  - name: Acquia
+    careers_url: https://www.acquia.com/careers
+    scan_method: websearch
+    scan_query: 'site:acquia.com/careers Drupal OR Acquia'
+    enabled: true
+
+  - name: Platform.sh
+    careers_url: https://platform.sh/company/careers/
+    scan_method: websearch
+    scan_query: 'site:platform.sh/company/careers Drupal OR PHP'
+    enabled: true
+
+  - name: Lullabot
+    careers_url: https://www.lullabot.com
+    scan_method: websearch
+    scan_query: 'site:lullabot.com Drupal jobs OR careers'
+    enabled: true
+
+  - name: amazee.io
+    careers_url: https://www.amazee.io
+    scan_method: websearch
+    scan_query: 'site:amazee.io Drupal careers OR jobs'
+    enabled: true
+
+  - name: ImageX
+    careers_url: https://jobs.drupal.org/company/imagex
+    scan_method: websearch
+    scan_query: 'site:jobs.drupal.org imagex Drupal developer remote'
+    enabled: true
+
+  - name: Chromatic
+    careers_url: https://jobs.drupal.org/company/chromatic
+    scan_method: websearch
+    scan_query: 'site:jobs.drupal.org chromatic Drupal developer remote'
+    enabled: true
+
+  - name: Arc.dev
+    careers_url: https://arc.dev/remote-jobs/drupal
+    scan_method: websearch
+    scan_query: 'site:arc.dev Drupal OR Symfony remote developer job'
+    enabled: true
+
+  - name: Working Nomads
+    careers_url: https://www.workingnomads.com/remote-drupal-jobs
+    scan_method: websearch
+    scan_query: 'site:workingnomads.com Drupal OR Symfony OR "PHP developer" remote'
+    enabled: true
+
+  - name: Promet Source
+    careers_url: https://promet.com/careers
+    scan_method: websearch
+    scan_query: 'site:jobs.drupal.org "promet" Drupal remote'
+    enabled: true
+
+  - name: TheDropTimes
+    careers_url: https://www.thedroptimes.com/jobs
+    scan_method: websearch
+    scan_query: 'site:thedroptimes.com Drupal developer job remote 2026'
+    enabled: true
+
+  - name: Evolving Web
+    careers_url: https://evolvingweb.com/careers
+    scan_method: websearch
+    scan_query: 'site:evolvingweb.com careers OR jobs Drupal developer'
+    enabled: true
+
+  - name: Get on Board
+    careers_url: https://www.getonbrd.com
+    scan_method: websearch
+    scan_query: 'site:getonbrd.com Drupal OR Symfony OR Laravel remote developer'
+    enabled: false  # stale: websearch returns expired listings; check site manually
