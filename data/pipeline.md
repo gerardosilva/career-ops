@@ -14,6 +14,11 @@
 - [ ] https://www.getonbrd.com/jobs/programming/desarrollador-fullstack-php-laravel-usercode-spa-remote | Usercode SpA | Desarrollador Full-Stack PHP (Laravel) | Chile/Mexico/Peru distributed team — Qualified
 - [ ] https://www.getonbrd.com/jobs/programming/desarrollador-backend-kuantaz-remote | Kuantaz | Desarrollador Back-end PHP (Laravel) | Fully remote worldwide — Qualified
 - [ ] https://www.getonbrd.com/jobs/programming/desarrollador-drupal-senior-moventi-remote | Moventi | Desarrollador Drupal Senior | Worldwide remote, digital transformation firm — Qualified
+- [ ] https://weworkremotely.com/remote-jobs/interaction-design-foundation-senior-php-laravel-developer | Interaction Design Foundation | Senior PHP (Laravel) Developer | Worldwide (timezone-agnostic), EdTech platform, 6+ yrs OOP/Laravel required — Qualified
+- [ ] https://weworkremotely.com/remote-jobs/internet-projects-ltd-senior-symfony-php-full-stack-developer-remote-full-time-1 | Internet Projects Ltd | Senior Symfony PHP Full Stack Developer | Remote anywhere, ~$3K/month, Airportia/Scorebar products — Qualified
+- [ ] https://remoteok.com/remote-jobs/110853-remote-senior-php-symfony-laravel-developer-lolly-co | Lolly Co | Senior PHP Symfony Laravel Developer | Worldwide, ~$50K, automation SaaS, contract or full-time — Qualified
+- [ ] https://weworkremotely.com/remote-jobs/mtc-experienced-php-backend-developer | MTC | Experienced PHP Backend Developer | Worldwide remote, Laravel/BigCommerce/WordPress stack — Qualified
+- [ ] https://www.getonbrd.com/empleos/programacion/sr-laravel-developer-tecla-remote | TECLA | Sr. Laravel Developer | LATAM recruiter, Mexico qualifies, auction marketplace backend, 5+ yrs Laravel — Qualified
 
 ## Processed
 
