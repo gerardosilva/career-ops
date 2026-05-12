@@ -1,0 +1,109 @@
+# Portal Scanner Configuration — Gerardo Silva (Senior Drupal Developer)
+# Focused on Drupal, PHP/Symfony, Laravel remote opportunities
+
+title_filter:
+  positive:
+    - "Drupal"
+    - "PHP"
+    - "Symfony"
+    - "Laravel"
+    - "Backend Developer"
+    - "Backend Engineer"
+    - "CMS Developer"
+    - "CMS Engineer"
+    - "Web Developer"
+    - "Full Stack"
+    - "Fullstack"
+    - "API Developer"
+    - "API Engineer"
+    - "Software Engineer"
+    - "Software Developer"
+  negative:
+    - "Junior"
+    - "Intern"
+    - "Entry Level"
+    - ".NET"
+    - "Java "
+    - "iOS"
+    - "Android"
+    - "Ruby"
+    - "Python"
+    - "Embedded"
+    - "Firmware"
+    - "FPGA"
+    - "Blockchain"
+    - "Web3"
+    - "Crypto"
+    - "Salesforce"
+    - "SAP "
+    - "Mainframe"
+    - "COBOL"
+    - "Node.js"
+    - "React"
+    - "Vue"
+    - "Angular"
+    - "Frontend"
+    - "Front-End"
+    - "Front End"
+    - "DevOps"
+    - "SRE"
+    - "Data Engineer"
+    - "Data Scientist"
+    - "Machine Learning"
+  seniority_boost:
+    - "Senior"
+    - "Staff"
+    - "Principal"
+    - "Lead"
+    - "Head"
+    - "Architect"
+
+geo_policy:
+  allow:
+    - "remote"
+    - "worldwide"
+    - "LATAM"
+    - "Americas"
+    - "Mexico"
+    - "global"
+  reject_if_only:
+    - "US only"
+    - "US citizens only"
+    - "requires US work authorization"
+    - "must be based in the US"
+
+rss_feeds:
+  - name: Drupal Jobs
+    url: https://jobs.drupal.org/all-jobs/feed
+    enabled: true
+    note: "Requires NO User-Agent header"
+  - name: LaraJobs
+    url: https://larajobs.com/feed
+    enabled: true
+  - name: We Work Remotely — Programming
+    url: https://weworkremotely.com/categories/remote-programming-jobs.rss
+    enabled: true
+    filter_regex: "drupal|php|laravel|symfony"
+
+search_queries:
+  - name: Drupal Developer — Remote
+    query: "Drupal developer remote senior"
+    enabled: true
+
+  - name: PHP Symfony — Remote
+    query: "PHP Symfony developer remote senior"
+    enabled: true
+
+  - name: Laravel Developer — Remote
+    query: "Laravel developer remote senior"
+    enabled: true
+
+  - name: Drupal Backend — LATAM friendly
+    query: "Drupal backend developer remote LATAM OR Mexico OR Americas"
+    enabled: true
+
+  - name: PHP Backend — Remote worldwide
+    query: "PHP backend developer remote worldwide senior"
+    enabled: true
+
+banned_companies: []
