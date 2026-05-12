@@ -7,6 +7,13 @@
 - [ ] https://jobs.drupal.org/symphony3/job/16811 | Symphony3 | Senior Full-stack Drupal Developer | Remote worldwide — Qualified
 - [ ] https://weworkremotely.com/remote-jobs/lemon-io-senior-full-stack-symfony-developer | Lemon.io | Senior Full-stack Symfony Developer | Remote anywhere (71+ countries incl. LATAM/Mexico) — Symfony, Vue, Angular, Senior ✓ — Qualified
 - [ ] https://www.peopleperhour.com/freelance-jobs/technology-programming/website-development/laravel-vue-js-developer-needed-4494114 | PeoplePerHour Client | Laravel + Vue.js Developer | LATAM only, $12/hr — Qualified, rate needs assessment
+- [ ] https://www.getonbrd.com/jobs/programacion/senior-drupal-engineer-devsu-remote | Devsu | Senior Drupal Engineer | Remote anywhere in LATAM incl. Mexico, lead Drupal architecture role — Qualified
+- [ ] https://www.getonbrd.com/jobs/programming/senior-symfony-software-engineer-kore-rpo-remote | Kore RPO | Senior Symfony Software Engineer | Remote worldwide, vacation-tech industry, Portland HQ — Qualified
+- [ ] https://www.getonbrd.com/jobs/programming/desarrollador-full-stack-php-laravel-alluxi-remote | Alluxi | Desarrollador Full-Stack PHP/Laravel | Mexico-only, digital agency — Qualified
+- [ ] https://www.getonbrd.com/jobs/programacion/desarrollador-fullstack-laravel-usercode-spa-remote | Usercode SpA | Desarrollador Full-Stack Laravel | Chile/Peru/Mexico distributed team — Qualified
+- [ ] https://www.getonbrd.com/jobs/programming/desarrollador-fullstack-php-laravel-usercode-spa-remote | Usercode SpA | Desarrollador Full-Stack PHP (Laravel) | Chile/Mexico/Peru distributed team — Qualified
+- [ ] https://www.getonbrd.com/jobs/programming/desarrollador-backend-kuantaz-remote | Kuantaz | Desarrollador Back-end PHP (Laravel) | Fully remote worldwide — Qualified
+- [ ] https://www.getonbrd.com/jobs/programming/desarrollador-drupal-senior-moventi-remote | Moventi | Desarrollador Drupal Senior | Worldwide remote, digital transformation firm — Qualified
 
 ## Processed
 
