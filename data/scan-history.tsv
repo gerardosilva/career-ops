@@ -18,7 +18,7 @@ https://www.thedroptimes.com/job/65426/remote-drupal-developer-job-at-apiux-tech
 https://www.upwork.com/freelance-jobs/apply/Drupal-Drupal-Site-Migration-Specialist_~021967563224418118828/	2026-04-06	Upwork - Drupal	Drupal 7 to Drupal 11 Site Migration Specialist	Upwork Client	added
 https://jobs.drupal.org/constructive/job/17270	2026-05-01	Drupal Jobs Board	Full Stack Developer (Drupal & WordPress) - Americas TZ	Constructive	added
 https://jobs.drupal.org/constructive/job/18382	2026-05-01	Drupal Jobs Board	Open Call for Freelance Drupal Developers	Constructive	skipped_geo
-https://jobs.drupal.org/imagex/job/17994	2026-05-01	Tracked company - ImageX	Senior/Lead Drupal Developer	ImageX	added
+https://jobs.drupal.org/imagex/job/17994	2026-05-01	Tracked company - ImageX	Senior/Lead Drupal Developer	ImageX	skipped_closed
 https://jobs.drupal.org/chromatic/job/17288	2026-05-01	Drupal Jobs Board	Senior Drupal/PHP Application Developer	Chromatic	added
 https://jobs.drupal.org/chromatic/job/17129	2026-05-01	Drupal Jobs Board	Senior Front-End Drupal Developer	Chromatic	added
 https://jobs.drupal.org/symphony3/job/16811	2026-05-01	Drupal Jobs Board	Senior Full-stack Drupal Developer - Remote (worldwide)	Symphony3	added
@@ -64,13 +64,13 @@ https://remote.com/jobs/provident-crm-c1fu78lq/lead-drupal-developer-j1deq4z8	20
 https://career.softserveinc.com/en-us/vacancies/cms-solutions-architect-contentful-drupal-87360	2026-05-07	Direct — user submitted	CMS Solutions Architect (Contentful, Drupal)	SoftServe	added
 https://weworkremotely.com/remote-jobs/lemon-io-senior-full-stack-symfony-developer	2026-05-11	We Work Remotely — Programming	Senior Full-stack Symfony Developer	Lemon.io	added
 https://www.peopleperhour.com/freelance-jobs/technology-programming/website-development/laravel-vue-js-developer-needed-4494114	2026-05-11	PeoplePerHour	Laravel + Vue.js Developer	PeoplePerHour Client	added
-https://www.getonbrd.com/jobs/programacion/senior-drupal-engineer-devsu-remote	2026-05-12	Get on Board — Drupal	Senior Drupal Engineer	Devsu	added
-https://www.getonbrd.com/jobs/programming/senior-symfony-software-engineer-kore-rpo-remote	2026-05-12	Get on Board — Symfony	Senior Symfony Software Engineer	Kore RPO	added
-https://www.getonbrd.com/jobs/programming/desarrollador-full-stack-php-laravel-alluxi-remote	2026-05-12	Get on Board — Laravel	Desarrollador Full-Stack PHP/Laravel	Alluxi	added
-https://www.getonbrd.com/jobs/programacion/desarrollador-fullstack-laravel-usercode-spa-remote	2026-05-12	Get on Board — Laravel	Desarrollador Full-Stack Laravel	Usercode SpA	added
-https://www.getonbrd.com/jobs/programming/desarrollador-fullstack-php-laravel-usercode-spa-remote	2026-05-12	Get on Board — Laravel	Desarrollador Full-Stack PHP (Laravel)	Usercode SpA	added
-https://www.getonbrd.com/jobs/programming/desarrollador-backend-kuantaz-remote	2026-05-12	Get on Board — Laravel	Desarrollador Back-end PHP (Laravel)	Kuantaz	added
-https://www.getonbrd.com/jobs/programming/desarrollador-drupal-senior-moventi-remote	2026-05-12	Get on Board — Drupal	Desarrollador Drupal Senior	Moventi	added
+https://www.getonbrd.com/jobs/programacion/senior-drupal-engineer-devsu-remote	2026-05-12	Get on Board — Drupal	Senior Drupal Engineer	Devsu	skipped_closed
+https://www.getonbrd.com/jobs/programming/senior-symfony-software-engineer-kore-rpo-remote	2026-05-12	Get on Board — Symfony	Senior Symfony Software Engineer	Kore RPO	skipped_closed
+https://www.getonbrd.com/jobs/programming/desarrollador-full-stack-php-laravel-alluxi-remote	2026-05-12	Get on Board — Laravel	Desarrollador Full-Stack PHP/Laravel	Alluxi	skipped_closed
+https://www.getonbrd.com/jobs/programacion/desarrollador-fullstack-laravel-usercode-spa-remote	2026-05-12	Get on Board — Laravel	Desarrollador Full-Stack Laravel	Usercode SpA	skipped_closed
+https://www.getonbrd.com/jobs/programming/desarrollador-fullstack-php-laravel-usercode-spa-remote	2026-05-12	Get on Board — Laravel	Desarrollador Full-Stack PHP (Laravel)	Usercode SpA	skipped_closed
+https://www.getonbrd.com/jobs/programming/desarrollador-backend-kuantaz-remote	2026-05-12	Get on Board — Laravel	Desarrollador Back-end PHP (Laravel)	Kuantaz	skipped_closed
+https://www.getonbrd.com/jobs/programming/desarrollador-drupal-senior-moventi-remote	2026-05-12	Get on Board — Drupal	Desarrollador Drupal Senior	Moventi	skipped_closed
 https://www.getonbrd.com/jobs/programming/back-end-symfony-developer-trem-group-remote-d115	2026-05-12	Get on Board — Symfony	Symfony API Developer	TREM Group	skipped_geo_unconfirmed
 https://www.getonbrd.com/empleos/programacion/desarrollador-backend-php-symfony-interfell-remote	2026-05-12	Get on Board — Symfony	Desarrollador Back-end (PHP + Symfony)	Interfell	skipped_geo_unconfirmed
 https://www.getonbrd.com/jobs/programming/backend-developer-laravel-visados-empresas-remote	2026-05-12	Get on Board — Laravel	Back-end Developer Laravel	Visados Empresas	skipped_geo_unconfirmed
@@ -89,45 +89,3 @@ https://www.getonbrd.com/jobs/programming/desarrollador-full-stack-laravel-vue-j
 https://jobs.drupal.org/common-sense-media/job/15206	2026-05-12	Drupal Jobs Board	Senior Developer	Common Sense Media	skipped_title
 https://jobs.drupal.org/lullabot/job/16635	2026-05-12	Drupal Jobs Board	Front-end Drupal/JS Developer	Lullabot	skipped_title
 https://www.workingnomads.com/jobs/senior-full-stack-developer-lemonio-1527145	2026-05-12	Working Nomads — Symfony	Senior Full-stack Developer	Lemon.io	skipped_duplicate
-https://weworkremotely.com/remote-jobs/interaction-design-foundation-senior-php-laravel-developer	2026-05-12	We Work Remotely — PHP/Laravel	Senior PHP (Laravel) Developer	Interaction Design Foundation	added
-https://weworkremotely.com/remote-jobs/internet-projects-ltd-senior-symfony-php-full-stack-developer-remote-full-time-1	2026-05-12	We Work Remotely — Symfony	Senior Symfony PHP Full Stack Developer	Internet Projects Ltd	added
-https://remoteok.com/remote-jobs/110853-remote-senior-php-symfony-laravel-developer-lolly-co	2026-05-12	RemoteOK	Senior PHP Symfony Laravel Developer	Lolly Co	added
-https://weworkremotely.com/remote-jobs/mtc-experienced-php-backend-developer	2026-05-12	We Work Remotely — PHP	Experienced PHP Backend Developer	MTC	added
-https://www.getonbrd.com/empleos/programacion/sr-laravel-developer-tecla-remote	2026-05-12	Get on Board — Laravel	Sr. Laravel Developer	TECLA	added
-https://weworkremotely.com/remote-jobs/jobs-for-lebanon-full-stack-web-developer-php-react	2026-05-12	We Work Remotely — PHP	Full Stack Web Developer (PHP/React)	Jobs for Lebanon	skipped_title
-https://weworkremotely.com/remote-jobs/calldrip-senior-php-full-stack-developer	2026-05-12	We Work Remotely — PHP	Senior PHP & Full-stack Developer	Calldrip	skipped_geo_unconfirmed
-https://himalayas.app/companies/lumaserv/jobs/php-laravel-engineer-gn-5388693623	2026-05-12	Himalayas	PHP Laravel Engineer	LUMASERV	skipped_geo
-https://remotive.com/remote/jobs/software-development/senior-php-developer-backend-laravel-symfony-with-ai-coding-experience-4348598	2026-05-12	Remotive — PHP/Symfony	Senior PHP Developer Backend (Laravel/Symfony)	headhunter.digital	skipped_geo
-https://remotive.com/remote/jobs/software-development/senior-drupal-developer-4224962	2026-05-12	Remotive — Drupal	Senior Drupal Developer	Pan American Health Organization	skipped_closed
-https://remotive.com/remote/jobs/software-development/freelance-senior-drupal-developer-3798751	2026-05-12	Remotive — Drupal	Freelance Senior Drupal Developer	B-works	skipped_geo
-https://remotive.com/remote/jobs/software-development/senior-drupal-developer-3889875	2026-05-12	Remotive — Drupal	Senior Drupal Developer	RIVA Solutions Inc.	skipped_geo
-https://remotive.com/remote/jobs/software-development/senior-back-end-developer-4389143	2026-05-12	Remotive — PHP	Senior Back-End Developer	MAISMEI	skipped_geo_unconfirmed
-https://remotive.com/remote/jobs/software-development/senior-backend-developer-php-java-kotlin-4417939	2026-05-12	Remotive — PHP	Senior Backend Developer (PHP + Java/Kotlin)	Sympla	skipped_title
-https://remotive.com/remote/jobs/software-development/senior-php-developer-ai-integration-focus-3889154	2026-05-12	Remotive — PHP	Senior PHP Developer - AI Integration Focus	Allshore Talent	skipped_geo
-https://weworkremotely.com/remote-jobs/remotemore-php-developer	2026-05-12	We Work Remotely — PHP	PHP Developer	RemoteMore	skipped_title
-https://weworkremotely.com/remote-jobs/interaction-design-foundation-senior-php-developer-laravel-4	2026-05-12	We Work Remotely — PHP/Laravel	Senior PHP Developer (Laravel)	Interaction Design Foundation	skipped_duplicate
-https://wellfound.com/company/worca/jobs/2670726-senior-backend-engineer-php-symfony-remote	2026-05-12	Wellfound — PHP/Symfony	Senior Backend Engineer (PHP, Symfony)	Worca	skipped_geo_unconfirmed
-https://www.thedroptimes.com/job/66664/remote-drupal-developer-job-at-develop-in-united-kingdom	2026-05-12	TheDropTimes — Drupal	Drupal Developer	Develop (UK)	skipped_geo
-https://jobs.drupal.org/informatics-studio/job/18305	2026-05-12	Drupal Jobs Board	Entry Level Backend / Drupal Developer	Informatics Studio	skipped_title
-https://weworkremotely.com/remote-jobs/learning-tapestry-senior-php-developer	2026-05-13	We Work Remotely — PHP	Senior PHP Developer	Learning Tapestry	added
-https://symfony.com/jobs/f2b4ebb	2026-05-13	Symfony.com Jobs	Lead Symfony Developer	Gravitiq	skipped_geo
-https://jobs.drupal.org/conviso-inc/job/18033	2026-05-13	Drupal Jobs Board	Senior Drupal Developer	Conviso Inc	skipped_geo
-https://symfony.com/jobs/2022267	2026-05-13	Symfony.com Jobs	Backend Symfony Developer	True9	skipped_geo
-https://symfony.com/jobs/e2985b0	2026-05-13	Symfony.com Jobs	Symfony Developer	Collectmaxx	skipped_geo
-https://symfony.com/jobs/776d11a	2026-05-13	Symfony.com Jobs	Symfony Developer	CobbleWeb	skipped_geo
-https://weworkremotely.com/remote-jobs/lemon-io-senior-php-full-stack-developer	2026-05-13	We Work Remotely — PHP	Senior PHP Full-Stack Developer	Lemon.io	skipped_closed
-https://symfony.com/jobs/b9265bd	2026-05-13	Symfony.com Jobs	Senior Symfony Developers	ongoing.ch	skipped_closed
-https://symfony.com/jobs/13a5a1a	2026-05-13	Symfony.com Jobs	Backend Symfony Developer	POLAVIS	skipped_closed
-https://symfony.com/jobs/066cd49	2026-05-13	Symfony.com Jobs	Backend Symfony Developer	DigtAg	skipped_closed
-https://symfony.com/jobs/ee526ac	2026-05-13	Symfony.com Jobs	Backend Symfony Developer	Evergrowth	skipped_closed
-https://startup.jobs/senior-backend-engineer-laravel-salla-4311031	2026-05-13	startup.jobs	Senior Backend Engineer (Laravel)	Salla	skipped_closed
-https://weworkremotely.com/remote-jobs/order-desk-senior-php-developer	2026-05-13	We Work Remotely — PHP	Senior PHP Developer	Order Desk	skipped_closed
-https://weworkremotely.com/remote-jobs/panda-interactive-senior-php-developer	2026-05-13	We Work Remotely — PHP	Senior PHP Developer	PANDA Interactive	skipped_closed
-https://weworkremotely.com/remote-jobs/rebilly-senior-php-developer	2026-05-13	We Work Remotely — PHP	Senior PHP Developer	Rebilly	skipped_closed
-https://weworkremotely.com/remote-jobs/onthegosystems-senior-php-developer-1	2026-05-13	We Work Remotely — PHP	Senior PHP Developer	OnTheGoSystems	skipped_closed
-https://weworkremotely.com/remote-jobs/better-proposals-senior-php-developer	2026-05-13	We Work Remotely — PHP	Senior PHP Developer	Better Proposals	skipped_geo_unconfirmed
-https://symfony.com/jobs/db6c0b1	2026-05-13	Symfony.com Jobs	Backend Symfony Developer	CobbleWeb	skipped_geo_unconfirmed
-https://www.remotefront.com/remote-jobs/qed42-senior-drupal-developer-back-end-0kgoa	2026-05-13	RemoteFront	Senior Drupal Developer (Back End)	QED42	skipped_geo_unconfirmed
-https://weworkremotely.com/remote-jobs/interaction-design-foundation-senior-php-laravel-developer-1	2026-05-13	We Work Remotely — PHP/Laravel	Senior PHP (Laravel) Developer	Interaction Design Foundation	skipped_duplicate
-https://jobs.drupal.org/promet-source/job/17892	2026-05-13	Drupal Jobs Board	Drupal Frontend Developer	Promet Source	skipped_title
-https://jobs.drupal.org/imagex-media/job/17713	2026-05-13	Drupal Jobs Board	Senior Software Developer (DevOps)	ImageX	skipped_title
