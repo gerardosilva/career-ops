@@ -6,6 +6,11 @@
 - [ ] https://jobs.drupal.org/symphony3/job/16811 | Symphony3 | Senior Full-stack Drupal Developer | Remote worldwide — Qualified
 - [ ] https://weworkremotely.com/remote-jobs/lemon-io-senior-full-stack-symfony-developer | Lemon.io | Senior Full-stack Symfony Developer | Remote anywhere (71+ countries incl. LATAM/Mexico) — Symfony, Vue, Angular, Senior ✓ — Qualified
 - [ ] https://www.peopleperhour.com/freelance-jobs/technology-programming/website-development/laravel-vue-js-developer-needed-4494114 | PeoplePerHour Client | Laravel + Vue.js Developer | LATAM only, $12/hr — Qualified, rate needs assessment
+- [ ] https://remotive.com/remote/jobs/software-development/senior-drupal-developer-4224962 | Pan American Health Organization (PAHO) | Senior Drupal Developer | Worldwide remote, $7380-8980/mo, Spanish desirable, Pantheon + decoupled Drupal — Qualified
+- [ ] https://remotive.com/remote/jobs/software-development/drupal-developer-4271045 | NavitasPartners | Drupal Developer | Worldwide remote, enterprise-scale digital transformation — Qualified
+- [ ] https://weworkremotely.com/remote-jobs/proxify-ab-senior-laravel-developer-long-term-job-100-remote | Proxify | Senior Laravel Developer | Worldwide +/-4h timezone, 100% remote long-term — Qualified
+- [ ] https://weworkremotely.com/listings/chirocat-senior-laravel-developer | ChiroCat | Senior Laravel Developer | GMT-7 to GMT-4 (Mexico City OK), chiro SaaS — Qualified
+- [ ] https://www.workingnomads.com/jobs/full-stack-symfony-developer-with-strong-chef-experience-scalable-path | Scalable Path | Full-Stack Symfony Developer | Worldwide LATAM, ~$35-50/hr part-time, Chef required — Qualified
 
 ## Processed
 
