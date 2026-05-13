@@ -19,6 +19,7 @@
 - [ ] https://remoteok.com/remote-jobs/110853-remote-senior-php-symfony-laravel-developer-lolly-co | Lolly Co | Senior PHP Symfony Laravel Developer | Worldwide, ~$50K, automation SaaS, contract or full-time — Qualified
 - [ ] https://weworkremotely.com/remote-jobs/mtc-experienced-php-backend-developer | MTC | Experienced PHP Backend Developer | Worldwide remote, Laravel/BigCommerce/WordPress stack — Qualified
 - [ ] https://www.getonbrd.com/empleos/programacion/sr-laravel-developer-tecla-remote | TECLA | Sr. Laravel Developer | LATAM recruiter, Mexico qualifies, auction marketplace backend, 5+ yrs Laravel — Qualified
+- [ ] https://weworkremotely.com/remote-jobs/learning-tapestry-senior-php-developer | Learning Tapestry | Senior PHP Developer | All-remote global org, PHP/Laravel preferred, flexible timezone — Qualified
 
 ## Processed
 
