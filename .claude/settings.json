@@ -1,0 +1,12 @@
+{
+  "sandbox": {
+    "network": {
+      "allowedDomains": [
+        "api.telegram.org",
+        "jobs.drupal.org",
+        "larajobs.com",
+        "weworkremotely.com"
+      ]
+    }
+  }
+}
