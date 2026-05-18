@@ -18,6 +18,13 @@
 - [ ] https://weworkremotely.com/remote-jobs/entermotion-php-laravel-app-developer | Entermotion Design Studio | PHP/Laravel App Developer | Worldwide remote, Laravel+PHP+AWS stack, remote-only team in 11 countries — Qualified
 - [ ] https://remotive.com/remote/jobs/software-development/professional-software-engineer-gn-php-b2b-commerce-4386028 | The Quality Group | Professional Software Engineer (PHP/Symfony) | Worldwide remote, PHP 8 + Symfony + AWS, B2B commerce platform — Qualified
 - [ ] https://startup.jobs/full-stack-software-engineer-php-laravel-vuejs-html-css-latin-america-only-freelance-remote-braintrust-4228694 | Braintrust | Full Stack PHP/Laravel/VueJS Engineer | Latin America only, $48K-$55K/yr, PST overlap, freelance — Qualified, rate low
+- [ ] https://remotive.com/remote/jobs/software-development/php-laravel-developer-4001974 | Somewhere | PHP Laravel Developer | LATAM only, marina/HOA SaaS platform, competitive monthly salary — Qualified
+- [ ] https://www.remoterocketship.com/us/company/topmind-com-br/jobs/full-stack-drupal-developer-worldwide-remote/ | TOPMIND | Full Stack Drupal Developer | Worldwide remote, Brazil-based company 22+ yrs, 4+ yrs Drupal exp required, OneTrust/security focus — Qualified
+- [ ] https://startup.jobs/php-with-laravel-developer-remote-latin-america-fullstack-labs-3307694 | FullStack Labs | PHP with Laravel Developer | Latin America only, top consultancy (Uber/GoDaddy clients), competitive pay — Qualified
+- [ ] https://startup.jobs/php-developer-remote-latin-america-fullstack-labs-5001396 | FullStack Labs | PHP Developer | Latin America only, PHP+Python+MongoDB stack, top consultancy — Qualified
+- [ ] https://startup.jobs/php-developer-remote-oowlish-technology-4008101 | Oowlish Technology | PHP Developer | LATAM (Lima/Caracas), US+Europe clients, ~$63k-$78k, fastest-growing LatAm dev shop — Qualified
+- [ ] https://jobs.lever.co/bluelightconsulting/3187bca5-2926-4827-bfa2-05fcb36ed92d | Bluelight Consulting | Laravel Developer + React | Latin America, Laravel 8+, React, leading LATAM consultancy — Qualified
+- [ ] https://jobs.lever.co/bluelightconsulting/5a209f53-9fcf-44c4-bd54-8a3836e9ec17 | Bluelight Consulting | Laravel Developer | Latin America, Laravel 8+, competitive pay — Qualified
 
 ## Processed
 
