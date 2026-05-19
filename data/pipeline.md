@@ -25,6 +25,9 @@
 - [ ] https://startup.jobs/php-developer-remote-oowlish-technology-4008101 | Oowlish Technology | PHP Developer | LATAM (Lima/Caracas), US+Europe clients, ~$63k-$78k, fastest-growing LatAm dev shop — Qualified
 - [ ] https://jobs.lever.co/bluelightconsulting/3187bca5-2926-4827-bfa2-05fcb36ed92d | Bluelight Consulting | Laravel Developer + React | Latin America, Laravel 8+, React, leading LATAM consultancy — Qualified
 - [ ] https://jobs.lever.co/bluelightconsulting/5a209f53-9fcf-44c4-bd54-8a3836e9ec17 | Bluelight Consulting | Laravel Developer | Latin America, Laravel 8+, competitive pay — Qualified
+- [ ] https://builtin.com/job/drupal-developer-remote-latin-america/2535119 | FullStack Labs | Drupal Developer - Remote - Latin America | Latin America only, Drupal site building + PHP, top Americas consultancy — Qualified
+- [ ] https://builtin.com/job/drupal-developer-remote-latin-america/2561814 | FullStack Labs | Drupal Developer - Remote - Latin America (2) | Latin America only, second Drupal opening at FullStack Labs — Qualified
+- [ ] https://weworkremotely.com/remote-jobs/lemon-io-senior-full-stack-angular-php-developer | Lemon.io | Senior Full-stack Angular & PHP Developer | 71+ countries incl. LATAM/Mexico, PHP+Angular talent marketplace — Qualified
 
 ## Processed
 
