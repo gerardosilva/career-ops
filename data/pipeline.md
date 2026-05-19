@@ -6,7 +6,6 @@
 - [ ] https://jobs.drupal.org/symphony3/job/16811 | Symphony3 | Senior Full-stack Drupal Developer | Remote worldwide — Qualified
 - [ ] https://weworkremotely.com/remote-jobs/lemon-io-senior-full-stack-symfony-developer | Lemon.io | Senior Full-stack Symfony Developer | Remote anywhere (71+ countries incl. LATAM/Mexico) — Symfony, Vue, Angular, Senior ✓ — Qualified
 - [ ] https://www.peopleperhour.com/freelance-jobs/technology-programming/website-development/laravel-vue-js-developer-needed-4494114 | PeoplePerHour Client | Laravel + Vue.js Developer | LATAM only, $12/hr — Qualified, rate needs assessment
-- [ ] https://remotive.com/remote/jobs/software-development/senior-drupal-developer-4224962 | Pan American Health Organization (PAHO) | Senior Drupal Developer | Worldwide remote, $7380-8980/mo, Spanish desirable, Pantheon + decoupled Drupal — Qualified
 - [ ] https://remotive.com/remote/jobs/software-development/drupal-developer-4271045 | NavitasPartners | Drupal Developer | Worldwide remote, enterprise-scale digital transformation — Qualified
 - [ ] https://weworkremotely.com/remote-jobs/proxify-ab-senior-laravel-developer-long-term-job-100-remote | Proxify | Senior Laravel Developer | Worldwide +/-4h timezone, 100% remote long-term — Qualified
 - [ ] https://weworkremotely.com/listings/chirocat-senior-laravel-developer | ChiroCat | Senior Laravel Developer | GMT-7 to GMT-4 (Mexico City OK), chiro SaaS — Qualified
@@ -19,7 +18,6 @@
 - [ ] https://remotive.com/remote/jobs/software-development/professional-software-engineer-gn-php-b2b-commerce-4386028 | The Quality Group | Professional Software Engineer (PHP/Symfony) | Worldwide remote, PHP 8 + Symfony + AWS, B2B commerce platform — Qualified
 - [ ] https://startup.jobs/full-stack-software-engineer-php-laravel-vuejs-html-css-latin-america-only-freelance-remote-braintrust-4228694 | Braintrust | Full Stack PHP/Laravel/VueJS Engineer | Latin America only, $48K-$55K/yr, PST overlap, freelance — Qualified, rate low
 - [ ] https://remotive.com/remote/jobs/software-development/php-laravel-developer-4001974 | Somewhere | PHP Laravel Developer | LATAM only, marina/HOA SaaS platform, competitive monthly salary — Qualified
-- [ ] https://www.remoterocketship.com/us/company/topmind-com-br/jobs/full-stack-drupal-developer-worldwide-remote/ | TOPMIND | Full Stack Drupal Developer | Worldwide remote, Brazil-based company 22+ yrs, 4+ yrs Drupal exp required, OneTrust/security focus — Qualified
 - [ ] https://startup.jobs/php-with-laravel-developer-remote-latin-america-fullstack-labs-3307694 | FullStack Labs | PHP with Laravel Developer | Latin America only, top consultancy (Uber/GoDaddy clients), competitive pay — Qualified
 - [ ] https://startup.jobs/php-developer-remote-latin-america-fullstack-labs-5001396 | FullStack Labs | PHP Developer | Latin America only, PHP+Python+MongoDB stack, top consultancy — Qualified
 - [ ] https://startup.jobs/php-developer-remote-oowlish-technology-4008101 | Oowlish Technology | PHP Developer | LATAM (Lima/Caracas), US+Europe clients, ~$63k-$78k, fastest-growing LatAm dev shop — Qualified
@@ -51,3 +49,5 @@
 - [x] https://www.thedroptimes.com/job/65426/remote-drupal-developer-job-at-apiux-tech-in-spain | Apiux Tech | Drupal Developer | Parked — geo unconfirmed
 - [x] https://www.linkedin.com/jobs/view/senior-drupal-developer-at-see-talent-group-latino-am%C3%A9rica-headhunting-4261792342 | SEE Talent Group | Senior Drupal Developer | Lost — closed
 - [x] https://py.linkedin.com/jobs/view/senior-drupal-php-engineer-remote-latam-at-foxbox-digital-4261063431 | Foxbox Digital | Senior Drupal PHP Engineer | Lost — closed
+- [x] https://remotive.com/remote/jobs/software-development/senior-drupal-developer-4224962 | Pan American Health Organization (PAHO) | Senior Drupal Developer | Lost — not available
+- [x] https://www.remoterocketship.com/us/company/topmind-com-br/jobs/full-stack-drupal-developer-worldwide-remote/ | TOPMIND | Full Stack Drupal Developer | Lost — Portuguese required
