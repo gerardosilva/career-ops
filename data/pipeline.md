@@ -24,7 +24,7 @@
 - [ ] https://jobs.lever.co/bluelightconsulting/3187bca5-2926-4827-bfa2-05fcb36ed92d | Bluelight Consulting | Laravel Developer + React | Latin America, Laravel 8+, React, leading LATAM consultancy — Qualified
 - [ ] https://jobs.lever.co/bluelightconsulting/5a209f53-9fcf-44c4-bd54-8a3836e9ec17 | Bluelight Consulting | Laravel Developer | Latin America, Laravel 8+, competitive pay — Qualified
 - [ ] https://builtin.com/job/drupal-developer-remote-latin-america/2535119 | FullStack Labs | Drupal Developer - Remote - Latin America | Latin America only, Drupal site building + PHP, top Americas consultancy — Qualified
-- [ ] https://builtin.com/job/drupal-developer-remote-latin-america/2561814 | FullStack Labs | Drupal Developer - Remote - Latin America (2) | Latin America only, second Drupal opening at FullStack Labs — Qualified
+- [x] https://builtin.com/job/drupal-developer-remote-latin-america/2561814 | FullStack Labs | Drupal Developer - Remote - Latin America (2) | Lost — not available
 - [ ] https://weworkremotely.com/remote-jobs/lemon-io-senior-full-stack-angular-php-developer | Lemon.io | Senior Full-stack Angular & PHP Developer | 71+ countries incl. LATAM/Mexico, PHP+Angular talent marketplace — Qualified
 - [ ] https://remotive.com/remote/jobs/software-development/php-developer-4285212 | Perficient | PHP Developer | LATAM remote, Fortune 500 digital consultancy, PHP full-stack — Qualified
 - [ ] https://remotive.com/remote/jobs/software-development/php-developer-3957271 | Bluelight Consulting | PHP Developer | Latin America only, leading LATAM consultancy — Qualified
