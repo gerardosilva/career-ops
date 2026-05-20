@@ -736,10 +736,10 @@ function renderIndex() {
       if (app.status === 'pending') {
         const opts = ['not available', 'closed', 'not a fit', 'rate too low', 'geo restricted', 'language barrier']
           .map((v) => '<option value="' + v + '">' + v + '</option>').join('');
-        const url = escapeHtml(app.jobUrl || '');
         return '<div class="status-form">'
           + '<select id="close-reason-' + app.number + '"><option value="">Cerrar como…</option>' + opts + '</select>'
-          + '<button onclick="closePipelineItem(\'' + url + '\',' + app.number + ')">Cerrar</button>'
+          + '<button data-url="' + escapeHtml(app.jobUrl || '') + '" data-num="' + app.number
+          + '" onclick="closePipelineItem(this.dataset.url,this.dataset.num)">Cerrar</button>'
           + '</div>';
       }
       const reportPath = escapeHtml(app.report && app.report.path ? app.report.path : '');
@@ -748,7 +748,7 @@ function renderIndex() {
       const note = escapeHtml(app.currentStatus || app.notes || '');
       return '<div class="status-form">'
         + '<select class="tracked-status-select" data-current="' + escapeHtml(app.statusLabel) + '" '
-        + 'onchange="updateStatus(\'' + reportPath + '\',this.value)">'
+        + 'data-path="' + reportPath + '" onchange="updateStatus(this.dataset.path,this.value)">'
         + opts + '</select>'
         + (note ? '<div class="status-note">' + note + '</div>' : '')
         + '</div>';
