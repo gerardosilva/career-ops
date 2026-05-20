@@ -29,7 +29,7 @@
 - [ ] https://remotive.com/remote/jobs/software-development/php-developer-4285212 | Perficient | PHP Developer | LATAM remote, Fortune 500 digital consultancy, PHP full-stack — Qualified
 - [ ] https://remotive.com/remote/jobs/software-development/php-developer-3957271 | Bluelight Consulting | PHP Developer | Latin America only, leading LATAM consultancy — Qualified
 - [ ] https://remotive.com/remote/jobs/software-dev/senior-drupal-php-engineer-1860813 | Foxbox Digital | Senior Drupal PHP Engineer | LATAM, Chicago-HQ award-winning digital agency, Drupal 8/9/10, 5+ yrs — Qualified
-- [ ] https://remotive.com/remote/jobs/software-development/senior-laravel-php-engineer-3981925 | Gorilla Logic | Senior Laravel/PHP Engineer | LATAM (Mexico, Colombia, Costa Rica), eCommerce, PHP/Laravel/Vue.js/AWS — Qualified
+- [x] https://remotive.com/remote/jobs/software-development/senior-laravel-php-engineer-3981925 | Gorilla Logic | Senior Laravel/PHP Engineer | Lost — not available
 - [x] https://startup.jobs/php-developer-latin-america-remote-azumo-3847799 | Azumo | PHP Developer | Lost — not a fit
 - [ ] https://jobs.lever.co/bluelightconsulting/8cd1d3fa-926f-463c-8c10-d9a6a3b06226 | Bluelight Consulting | Full Stack Laravel + React Developer | Latin America, Laravel 8+, React, new opening — Qualified
 - [ ] https://jobs.lever.co/bluelightconsulting/3e9ffcd7-bd56-4337-b0db-685f53752cfe | Bluelight Consulting | Laravel and React Developer | Latin America, competitive pay, additional opening — Qualified
