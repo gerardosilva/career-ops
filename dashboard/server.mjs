@@ -719,21 +719,50 @@ function renderIndex() {
                 \${app.jobUrl ? \`<a href="\${escapeHtml(app.jobUrl)}" target="_blank" rel="noreferrer">Open job</a>\` : ''}
               </div>
               <div>
-                <div class="status-form">
-                  <select onchange="updateStatus('\${escapeHtml(app.report?.path || '')}', this.value)">
-                    ${STATUS_OPTIONS.map((status) => `<option value="${status}">${status}</option>`).join('')}
-                  </select>
-                  <div class="status-note">\${escapeHtml(app.currentStatus || app.notes || '')}</div>
-                </div>
+                \${app.status === 'pending' ? \`
+                  <div class="status-form">
+                    <select id="close-reason-\${app.number}">
+                      <option value="">Cerrar como…</option>
+                      <option value="not available">not available</option>
+                      <option value="closed">closed</option>
+                      <option value="not a fit">not a fit</option>
+                      <option value="rate too low">rate too low</option>
+                      <option value="geo restricted">geo restricted</option>
+                      <option value="language barrier">language barrier</option>
+                    </select>
+                    <button onclick="closePipelineItem('\${escapeHtml(app.jobUrl)}', \${app.number})">Cerrar</button>
+                  </div>
+                \` : \`
+                  <div class="status-form">
+                    <select onchange="updateStatus('\${escapeHtml(app.report?.path || '')}', this.value)">
+                      ${STATUS_OPTIONS.map((status) => `<option value="${status}">${status}</option>`).join('')}
+                    </select>
+                    <div class="status-note">\${escapeHtml(app.currentStatus || app.notes || '')}</div>
+                  </div>
+                \`}
               </div>
             </div>
           </article>
         \`;
       }).join('');
 
-      document.querySelectorAll('.status-form select').forEach((select, index) => {
-        select.value = apps[index].statusLabel;
+      document.querySelectorAll('.status-form select[onchange]').forEach((select, index) => {
+        const tracked = filteredApps().filter((a) => a.status !== 'pending');
+        if (tracked[index]) select.value = tracked[index].statusLabel;
       });
+    }
+
+    async function closePipelineItem(jobUrl, cardNumber) {
+      const sel = document.getElementById('close-reason-' + cardNumber);
+      const reason = sel ? sel.value : '';
+      if (!reason) { alert('Selecciona un motivo'); return; }
+      const resp = await fetch('/api/pipeline-close', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ jobUrl, reason }),
+      });
+      if (!resp.ok) { alert(await resp.text()); return; }
+      await load();
     }
 
     function render() {
@@ -744,6 +773,7 @@ function renderIndex() {
 
     load();
     window.updateStatus = updateStatus;
+    window.closePipelineItem = closePipelineItem;
   </script>
 </body>
 </html>`;
@@ -784,6 +814,24 @@ const server = http.createServer(async (req, res) => {
     return;
   }
 
+  if (req.method === 'POST' && requestUrl.pathname === '/api/pipeline-close') {
+    let body = '';
+    req.on('data', (chunk) => { body += chunk; });
+    req.on('end', async () => {
+      try {
+        const { jobUrl, reason } = JSON.parse(body);
+        if (!jobUrl || !reason) throw new Error('Missing jobUrl or reason');
+        await closePipelineItem(jobUrl, reason);
+        res.writeHead(204);
+        res.end();
+      } catch (error) {
+        res.writeHead(400, { 'Content-Type': 'text/plain; charset=utf-8' });
+        res.end(error.message);
+      }
+    });
+    return;
+  }
+
   if (req.method === 'GET' && requestUrl.pathname === '/file') {
     const relativePath = requestUrl.searchParams.get('path');
     if (!relativePath) {
@@ -798,6 +846,64 @@ const server = http.createServer(async (req, res) => {
   res.writeHead(404, { 'Content-Type': 'text/plain; charset=utf-8' });
   res.end('Not found');
 });
+
+// ── Pipeline close (local edit + GitHub API push) ─────────────────────────
+
+async function closePipelineItem(jobUrl, reason) {
+  const filePath = pipelinePath();
+  if (!existsSync(filePath)) throw new Error('pipeline.md not found locally');
+  const lines = readFileSync(filePath, 'utf8').split('\n');
+  let found = false;
+  const updated = lines.map((line) => {
+    if (line.startsWith('- [ ]') && line.includes(jobUrl)) {
+      found = true;
+      const parts = line.replace(/^- \[ \]\s*/, '').split(' | ');
+      const company = parts[1] || '';
+      const role    = parts[2] || '';
+      return `- [x] ${jobUrl} | ${company} | ${role} | Lost — ${reason}`;
+    }
+    return line;
+  });
+  if (!found) throw new Error(`URL not found in pending: ${jobUrl}`);
+  const newContent = updated.join('\n');
+  writeFileSync(filePath, newContent);
+
+  const GH_TOKEN = (() => {
+    try {
+      const sec = readFileSync(join(repoRoot, 'config', 'secrets.env'), 'utf8');
+      return sec.match(/GH_TOKEN\s*=\s*"?([^"\n]+)"?/)?.[1] || '';
+    } catch { return ''; }
+  })();
+  if (!GH_TOKEN) { console.warn('[pipeline-close] No GH_TOKEN — local only'); return; }
+
+  const apiBase = 'https://api.github.com';
+  const owner = 'gerardosilva';
+  const repoName = 'career-ops';
+  const apiFilePath = 'data/pipeline.md';
+
+  const getResp = await fetch(`${apiBase}/repos/${owner}/${repoName}/contents/${apiFilePath}?ref=main`, {
+    headers: { Authorization: `Bearer ${GH_TOKEN}`, Accept: 'application/vnd.github+json' },
+  });
+  if (!getResp.ok) throw new Error(`GitHub GET failed: ${getResp.status}`);
+  const fileInfo = await getResp.json();
+
+  const putResp = await fetch(`${apiBase}/repos/${owner}/${repoName}/contents/${apiFilePath}`, {
+    method: 'PUT',
+    headers: { Authorization: `Bearer ${GH_TOKEN}`, Accept: 'application/vnd.github+json', 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      message: `data: close pipeline item — ${reason}`,
+      content: Buffer.from(newContent).toString('base64'),
+      sha: fileInfo.sha,
+      branch: 'main',
+      committer: { name: 'career-ops-bot', email: 'career-ops-bot@gerardosilva.dev' },
+    }),
+  });
+  if (!putResp.ok) { const err = await putResp.text(); throw new Error(`GitHub PUT failed: ${err}`); }
+  const result = await putResp.json();
+  const newSha = result.commit?.sha || '';
+  if (newSha && existsSync(LAST_SHA_FILE)) writeFileSync(LAST_SHA_FILE, newSha);
+  console.log(`[pipeline-close] ${newSha.slice(0, 7)} — ${reason}`);
+}
 
 // ── Remote sync + Telegram ────────────────────────────────────────────────
 
