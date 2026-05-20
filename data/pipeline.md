@@ -26,6 +26,15 @@
 - [ ] https://builtin.com/job/drupal-developer-remote-latin-america/2535119 | FullStack Labs | Drupal Developer - Remote - Latin America | Latin America only, Drupal site building + PHP, top Americas consultancy — Qualified
 - [ ] https://builtin.com/job/drupal-developer-remote-latin-america/2561814 | FullStack Labs | Drupal Developer - Remote - Latin America (2) | Latin America only, second Drupal opening at FullStack Labs — Qualified
 - [ ] https://weworkremotely.com/remote-jobs/lemon-io-senior-full-stack-angular-php-developer | Lemon.io | Senior Full-stack Angular & PHP Developer | 71+ countries incl. LATAM/Mexico, PHP+Angular talent marketplace — Qualified
+- [ ] https://remotive.com/remote/jobs/software-development/php-developer-4285212 | Perficient | PHP Developer | LATAM remote, Fortune 500 digital consultancy, PHP full-stack — Qualified
+- [ ] https://remotive.com/remote/jobs/software-development/php-developer-3957271 | Bluelight Consulting | PHP Developer | Latin America only, leading LATAM consultancy — Qualified
+- [ ] https://remotive.com/remote/jobs/software-dev/senior-drupal-php-engineer-1860813 | Foxbox Digital | Senior Drupal PHP Engineer | LATAM, Chicago-HQ award-winning digital agency, Drupal 8/9/10, 5+ yrs — Qualified
+- [ ] https://remotive.com/remote/jobs/software-development/senior-laravel-php-engineer-3981925 | Gorilla Logic | Senior Laravel/PHP Engineer | LATAM (Mexico, Colombia, Costa Rica), eCommerce, PHP/Laravel/Vue.js/AWS — Qualified
+- [ ] https://startup.jobs/php-developer-latin-america-remote-azumo-3847799 | Azumo | PHP Developer | Latin America, Symfony/Laravel, US-based nearshore tech company — Qualified
+- [ ] https://jobs.lever.co/bluelightconsulting/8cd1d3fa-926f-463c-8c10-d9a6a3b06226 | Bluelight Consulting | Full Stack Laravel + React Developer | Latin America, Laravel 8+, React, new opening — Qualified
+- [ ] https://jobs.lever.co/bluelightconsulting/3e9ffcd7-bd56-4337-b0db-685f53752cfe | Bluelight Consulting | Laravel and React Developer | Latin America, competitive pay, additional opening — Qualified
+- [ ] https://weworkremotely.com/remote-jobs/lemon-io-senior-php-full-stack-developer | Lemon.io | Senior PHP Full-stack Developer | 50+ countries incl. LATAM/Mexico, PHP full-stack talent marketplace — Qualified
+- [ ] https://weworkremotely.com/remote-jobs/lemon-io-senior-full-stack-php-react-developer | Lemon.io | Senior Full-stack PHP & React Developer | 50+ countries incl. LATAM/Mexico, PHP+React — Qualified
 
 ## Processed
 
