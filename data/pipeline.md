@@ -28,7 +28,7 @@
 - [ ] https://weworkremotely.com/remote-jobs/lemon-io-senior-full-stack-angular-php-developer | Lemon.io | Senior Full-stack Angular & PHP Developer | 71+ countries incl. LATAM/Mexico, PHP+Angular talent marketplace — Qualified
 - [ ] https://remotive.com/remote/jobs/software-development/php-developer-4285212 | Perficient | PHP Developer | LATAM remote, Fortune 500 digital consultancy, PHP full-stack — Qualified
 - [ ] https://remotive.com/remote/jobs/software-development/php-developer-3957271 | Bluelight Consulting | PHP Developer | Latin America only, leading LATAM consultancy — Qualified
-- [ ] https://remotive.com/remote/jobs/software-dev/senior-drupal-php-engineer-1860813 | Foxbox Digital | Senior Drupal PHP Engineer | LATAM, Chicago-HQ award-winning digital agency, Drupal 8/9/10, 5+ yrs — Qualified
+- [x] https://remotive.com/remote/jobs/software-dev/senior-drupal-php-engineer-1860813 | Foxbox Digital | Senior Drupal PHP Engineer | Lost — closed
 - [x] https://remotive.com/remote/jobs/software-development/senior-laravel-php-engineer-3981925 | Gorilla Logic | Senior Laravel/PHP Engineer | Lost — not available
 - [x] https://startup.jobs/php-developer-latin-america-remote-azumo-3847799 | Azumo | PHP Developer | Lost — not a fit
 - [ ] https://jobs.lever.co/bluelightconsulting/8cd1d3fa-926f-463c-8c10-d9a6a3b06226 | Bluelight Consulting | Full Stack Laravel + React Developer | Latin America, Laravel 8+, React, new opening — Qualified
