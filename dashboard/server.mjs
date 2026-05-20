@@ -50,7 +50,9 @@ function normalizeStatus(raw) {
 
 function readApplications() {
   const filePath = applicationsPath();
-  const content = readFileSync(filePath, 'utf8');
+  if (!existsSync(filePath)) return [];
+  let content;
+  try { content = readFileSync(filePath, 'utf8'); } catch { return []; }
   const lines = content.split('\n');
   const apps = [];
 
