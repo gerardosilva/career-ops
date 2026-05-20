@@ -12,7 +12,7 @@
 - [ ] https://www.workingnomads.com/jobs/full-stack-symfony-developer-with-strong-chef-experience-scalable-path | Scalable Path | Full-Stack Symfony Developer | Worldwide LATAM, ~$35-50/hr part-time, Chef required — Qualified
 - [ ] https://startup.jobs/senior-full-stack-php-laravel-reactjs-engineer-all-latam-countries-fully-remote-mahisoft-inc-4258649 | Mahisoft Inc. | Senior Full Stack PHP Laravel React.js Engineer | All LATAM countries, fully remote — Qualified
 - [ ] https://startup.jobs/senior-php-laravel-developer-all-latam-countries-fully-remote-mahisoft-inc-4258648 | Mahisoft Inc. | Senior PHP Laravel Developer | All LATAM countries, fully remote — Qualified
-- [ ] https://remotive.com/remote/jobs/software-development/senior-backend-php-developer-4486382 | Lighthouse | Senior Backend PHP Developer | Americas + Europe + Israel, $120-$170/hr contract — Qualified
+- [x] https://remotive.com/remote/jobs/software-development/senior-backend-php-developer-4486382 | Lighthouse | Senior Backend PHP Developer | Lost — language barrier
 - [ ] https://remotive.com/remote/jobs/software-development/php-developer-backend-4488306 | Custom Connect | PHP Developer Backend | Worldwide, no geo restrictions — Qualified
 - [x] https://weworkremotely.com/remote-jobs/entermotion-php-laravel-app-developer | Entermotion Design Studio | PHP/Laravel App Developer | Lost — not available
 - [ ] https://remotive.com/remote/jobs/software-development/professional-software-engineer-gn-php-b2b-commerce-4386028 | The Quality Group | Professional Software Engineer (PHP/Symfony) | Worldwide remote, PHP 8 + Symfony + AWS, B2B commerce platform — Qualified
