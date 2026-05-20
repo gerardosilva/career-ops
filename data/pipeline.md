@@ -3,7 +3,7 @@
 - [ ] https://career.softserveinc.com/en-us/vacancies/cms-solutions-architect-contentful-drupal-87360 | SoftServe | CMS Solutions Architect (Contentful, Drupal) | México confirmado, headless/MACH fit — CV generado
 - [x] https://jobs.drupal.org/chromatic/job/17288 | Chromatic | Senior Drupal/PHP Application Developer | Lost — not available
 - [ ] https://jobs.drupal.org/chromatic/job/17129 | Chromatic | Senior Front-End Drupal Developer | GMT-10 to GMT+2 (Mexico OK) — Qualified
-- [ ] https://jobs.drupal.org/symphony3/job/16811 | Symphony3 | Senior Full-stack Drupal Developer | Remote worldwide — Qualified
+- [x] https://jobs.drupal.org/symphony3/job/16811 | Symphony3 | Senior Full-stack Drupal Developer | Lost — not available
 - [ ] https://weworkremotely.com/remote-jobs/lemon-io-senior-full-stack-symfony-developer | Lemon.io | Senior Full-stack Symfony Developer | Remote anywhere (71+ countries incl. LATAM/Mexico) — Symfony, Vue, Angular, Senior ✓ — Qualified
 - [x] https://www.peopleperhour.com/freelance-jobs/technology-programming/website-development/laravel-vue-js-developer-needed-4494114 | PeoplePerHour Client | Laravel + Vue.js Developer | Lost — rate too low
 - [x] https://remotive.com/remote/jobs/software-development/drupal-developer-4271045 | NavitasPartners | Drupal Developer | Lost — not available
