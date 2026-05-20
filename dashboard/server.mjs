@@ -556,6 +556,7 @@ function renderIndex() {
   </div>
 
   <script>
+    const STATUS_OPTIONS_CLIENT = ${JSON.stringify(STATUS_OPTIONS)};
     const STATUS_LABELS = {
       all: 'All',
       pending: 'Pending',
@@ -718,38 +719,39 @@ function renderIndex() {
                 \${app.pdf?.path ? \`<a href="\${pdfHref}" target="_blank" rel="noreferrer">Open PDF</a>\` : ''}
                 \${app.jobUrl ? \`<a href="\${escapeHtml(app.jobUrl)}" target="_blank" rel="noreferrer">Open job</a>\` : ''}
               </div>
-              <div>
-                \${app.status === 'pending' ? \`
-                  <div class="status-form">
-                    <select id="close-reason-\${app.number}">
-                      <option value="">Cerrar como…</option>
-                      <option value="not available">not available</option>
-                      <option value="closed">closed</option>
-                      <option value="not a fit">not a fit</option>
-                      <option value="rate too low">rate too low</option>
-                      <option value="geo restricted">geo restricted</option>
-                      <option value="language barrier">language barrier</option>
-                    </select>
-                    <button onclick="closePipelineItem('\${escapeHtml(app.jobUrl)}', \${app.number})">Cerrar</button>
-                  </div>
-                \` : \`
-                  <div class="status-form">
-                    <select onchange="updateStatus('\${escapeHtml(app.report?.path || '')}', this.value)">
-                      ${STATUS_OPTIONS.map((status) => `<option value="${status}">${status}</option>`).join('')}
-                    </select>
-                    <div class="status-note">\${escapeHtml(app.currentStatus || app.notes || '')}</div>
-                  </div>
-                \`}
-              </div>
+              <div>\${renderControls(app)}</div>
             </div>
           </article>
         \`;
       }).join('');
 
-      document.querySelectorAll('.status-form select[onchange]').forEach((select, index) => {
-        const tracked = filteredApps().filter((a) => a.status !== 'pending');
-        if (tracked[index]) select.value = tracked[index].statusLabel;
+      // Set the current status as the selected option in each tracked item's dropdown
+      document.querySelectorAll('.tracked-status-select').forEach((select) => {
+        const label = select.dataset.current;
+        if (label) select.value = label;
       });
+    }
+
+    function renderControls(app) {
+      if (app.status === 'pending') {
+        const opts = ['not available', 'closed', 'not a fit', 'rate too low', 'geo restricted', 'language barrier']
+          .map((v) => '<option value="' + v + '">' + v + '</option>').join('');
+        const url = escapeHtml(app.jobUrl || '');
+        return '<div class="status-form">'
+          + '<select id="close-reason-' + app.number + '"><option value="">Cerrar como…</option>' + opts + '</select>'
+          + '<button onclick="closePipelineItem(\'' + url + '\',' + app.number + ')">Cerrar</button>'
+          + '</div>';
+      }
+      const reportPath = escapeHtml(app.report && app.report.path ? app.report.path : '');
+      const opts = STATUS_OPTIONS_CLIENT
+        .map((s) => '<option value="' + s + '">' + s + '</option>').join('');
+      const note = escapeHtml(app.currentStatus || app.notes || '');
+      return '<div class="status-form">'
+        + '<select class="tracked-status-select" data-current="' + escapeHtml(app.statusLabel) + '" '
+        + 'onchange="updateStatus(\'' + reportPath + '\',this.value)">'
+        + opts + '</select>'
+        + (note ? '<div class="status-note">' + note + '</div>' : '')
+        + '</div>';
     }
 
     async function closePipelineItem(jobUrl, cardNumber) {
