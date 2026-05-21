@@ -35,6 +35,10 @@
 - [ ] https://jobs.lever.co/bluelightconsulting/3e9ffcd7-bd56-4337-b0db-685f53752cfe | Bluelight Consulting | Laravel and React Developer | Latin America, competitive pay, additional opening — Qualified
 - [ ] https://weworkremotely.com/remote-jobs/lemon-io-senior-php-full-stack-developer | Lemon.io | Senior PHP Full-stack Developer | 50+ countries incl. LATAM/Mexico, PHP full-stack talent marketplace — Qualified
 - [ ] https://weworkremotely.com/remote-jobs/lemon-io-senior-full-stack-php-react-developer | Lemon.io | Senior Full-stack PHP & React Developer | 50+ countries incl. LATAM/Mexico, PHP+React — Qualified
+- [ ] https://weworkremotely.com/remote-jobs/internet-projects-ltd-senior-symfony-php-full-stack-developer-remote-full-time-1 | Internet Projects Ltd | Senior Symfony PHP Full Stack Developer | Anywhere in the World, $3K/mo, Symfony+Vue+NuxtJS, high-traffic web properties — Qualified
+- [ ] https://remotive.com/remote/jobs/software-development/laravel-developer-4498886 | Immovara GmbH | Laravel Developer | Worldwide, AI-first env (Claude Code), Laravel+Vue, flexible remote — Qualified
+- [ ] https://weworkremotely.com/remote-jobs/proxify-ab-senior-symfony-developer-1 | Proxify AB | Senior Symfony Developer | 100% remote no geo restrictions, Symfony talent marketplace — Qualified
+- [ ] https://weworkremotely.com/remote-jobs/bbe-marketing-inc-full-stack-php-developer-symfony-angular-1 | BBE Marketing Inc | Full-Stack PHP Developer (Symfony + Angular) | Remote worldwide, Symfony+Angular, product-focused contract — Qualified
 
 ## Processed
 
