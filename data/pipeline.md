@@ -39,6 +39,8 @@
 - [ ] https://remotive.com/remote/jobs/software-development/laravel-developer-4498886 | Immovara GmbH | Laravel Developer | Worldwide, AI-first env (Claude Code), Laravel+Vue, flexible remote — Qualified
 - [ ] https://weworkremotely.com/remote-jobs/proxify-ab-senior-symfony-developer-1 | Proxify AB | Senior Symfony Developer | 100% remote no geo restrictions, Symfony talent marketplace — Qualified
 - [ ] https://weworkremotely.com/remote-jobs/bbe-marketing-inc-full-stack-php-developer-symfony-angular-1 | BBE Marketing Inc | Full-Stack PHP Developer (Symfony + Angular) | Remote worldwide, Symfony+Angular, product-focused contract — Qualified
+- [ ] https://weworkremotely.com/remote-jobs/onthegosystems-php-developer-latin-america | OnTheGoSystems | PHP Developer (Latin America) | WPML plugin (1.5M+ sites), Latin America remote, Spanish speakers, stable company since 2008 — Qualified
+- [ ] https://weworkremotely.com/remote-jobs/onthegosystems-php-developer-latin-america-german-french-and-spanish-speakers | OnTheGoSystems | PHP Developer (Latin America, Spanish speakers) | WPML plugin, LATAM remote, Spanish-speaking variant — Qualified
 
 ## Processed
 
