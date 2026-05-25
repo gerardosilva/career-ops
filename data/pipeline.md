@@ -41,6 +41,8 @@
 - [ ] https://weworkremotely.com/remote-jobs/bbe-marketing-inc-full-stack-php-developer-symfony-angular-1 | BBE Marketing Inc | Full-Stack PHP Developer (Symfony + Angular) | Remote worldwide, Symfony+Angular, product-focused contract — Qualified
 - [ ] https://weworkremotely.com/remote-jobs/onthegosystems-php-developer-latin-america | OnTheGoSystems | PHP Developer (Latin America) | WPML plugin (1.5M+ sites), Latin America remote, Spanish speakers, stable company since 2008 — Qualified
 - [ ] https://weworkremotely.com/remote-jobs/onthegosystems-php-developer-latin-america-german-french-and-spanish-speakers | OnTheGoSystems | PHP Developer (Latin America, Spanish speakers) | WPML plugin, LATAM remote, Spanish-speaking variant — Qualified
+- [ ] https://weworkremotely.com/listings/awesome-motive-senior-laravel-developer | Awesome Motive | Senior Laravel Developer | 100% worldwide remote, Laravel PHP 8+, SaaS + WordPress plugins, some ET overlap preferred — Qualified
+- [ ] https://startup.jobs/tech-lead-php-laravel-devsu-3426942 | Devsu | Tech Lead PHP/Laravel | LATAM remote, tech leadership, PHP+Laravel, LATAM-focused tech agency — Qualified
 
 ## Processed
 
