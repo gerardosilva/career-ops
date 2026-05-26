@@ -41,10 +41,10 @@
 - [ ] https://weworkremotely.com/remote-jobs/bbe-marketing-inc-full-stack-php-developer-symfony-angular-1 | BBE Marketing Inc | Full-Stack PHP Developer (Symfony + Angular) | Remote worldwide, Symfony+Angular, product-focused contract — Qualified
 - [ ] https://weworkremotely.com/remote-jobs/onthegosystems-php-developer-latin-america | OnTheGoSystems | PHP Developer (Latin America) | WPML plugin (1.5M+ sites), Latin America remote, Spanish speakers, stable company since 2008 — Qualified
 - [ ] https://weworkremotely.com/remote-jobs/onthegosystems-php-developer-latin-america-german-french-and-spanish-speakers | OnTheGoSystems | PHP Developer (Latin America, Spanish speakers) | WPML plugin, LATAM remote, Spanish-speaking variant — Qualified
-- [ ] https://weworkremotely.com/remote-jobs/awesome-motive-senior-laravel-developer | Awesome Motive | Senior Laravel Developer | Worldwide (50+ countries), SaaS/WordPress products (OptinMonster, WPForms), 9am–5pm EST overlap — Qualified
+- [ ] https://weworkremotely.com/listings/awesome-motive-senior-laravel-developer | Awesome Motive | Senior Laravel Developer | 100% worldwide remote, Laravel PHP 8+, SaaS + WordPress plugins, some ET overlap preferred — Qualified
+- [ ] https://startup.jobs/tech-lead-php-laravel-devsu-3426942 | Devsu | Tech Lead PHP/Laravel | LATAM remote, tech leadership, PHP+Laravel, LATAM-focused tech agency — Qualified
 - [ ] https://weworkremotely.com/remote-jobs/neris-analytics-limited-experienced-backend-developer-laravel-vue | NERIS Analytics Limited | Experienced Backend Developer (Laravel/Vue) | Worldwide anywhere, $60-90k/yr, 16Personalities platform, stable long-term — Qualified
 - [ ] https://weworkremotely.com/remote-jobs/the-remote-company-sr-laravel-and-vue-js-developer | The Remote Company | SR Laravel and Vue.js Developer | Worldwide remote-first, Senior level — Qualified
-- [ ] https://weworkremotely.com/remote-jobs/the-remote-company-laravel-and-vue-js-developer-1 | The Remote Company | Laravel and Vue.js Developer | Worldwide remote-first, Laravel+Vue+PostgreSQL+Kubernetes — Qualified
 - [ ] https://weworkremotely.com/remote-jobs/film-and-music-php-laravel-engineer | Film and Music | PHP/Laravel Engineer | Worldwide remote-first, JD says junior/mid-level — Qualified, verify seniority fit
 
 ## Processed
