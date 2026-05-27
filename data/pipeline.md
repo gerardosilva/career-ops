@@ -21,7 +21,7 @@
 - [ ] https://startup.jobs/php-with-laravel-developer-remote-latin-america-fullstack-labs-3307694 | FullStack Labs | PHP with Laravel Developer | Latin America only, top consultancy (Uber/GoDaddy clients), competitive pay — Qualified
 - [ ] https://startup.jobs/php-developer-remote-latin-america-fullstack-labs-5001396 | FullStack Labs | PHP Developer | Latin America only, PHP+Python+MongoDB stack, top consultancy — Qualified
 - [x] https://startup.jobs/php-developer-remote-oowlish-technology-4008101 | Oowlish Technology | PHP Developer | Lost — not available
-- [ ] https://jobs.lever.co/bluelightconsulting/3187bca5-2926-4827-bfa2-05fcb36ed92d | Bluelight Consulting | Laravel Developer + React | Latin America, Laravel 8+, React, leading LATAM consultancy — Qualified
+- [x] https://jobs.lever.co/bluelightconsulting/3187bca5-2926-4827-bfa2-05fcb36ed92d | Bluelight Consulting | Laravel Developer + React | Lost — not a fit
 - [ ] https://jobs.lever.co/bluelightconsulting/5a209f53-9fcf-44c4-bd54-8a3836e9ec17 | Bluelight Consulting | Laravel Developer | Latin America, Laravel 8+, competitive pay — Qualified
 - [x] https://builtin.com/job/drupal-developer-remote-latin-america/2535119 | FullStack Labs | Drupal Developer - Remote - Latin America | Lost — not available
 - [x] https://builtin.com/job/drupal-developer-remote-latin-america/2561814 | FullStack Labs | Drupal Developer - Remote - Latin America (2) | Lost — not available
