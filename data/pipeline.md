@@ -16,7 +16,7 @@
 - [ ] https://remotive.com/remote/jobs/software-development/php-developer-backend-4488306 | Custom Connect | PHP Developer Backend | Worldwide, no geo restrictions — Qualified
 - [x] https://weworkremotely.com/remote-jobs/entermotion-php-laravel-app-developer | Entermotion Design Studio | PHP/Laravel App Developer | Lost — not available
 - [ ] https://remotive.com/remote/jobs/software-development/professional-software-engineer-gn-php-b2b-commerce-4386028 | The Quality Group | Professional Software Engineer (PHP/Symfony) | Worldwide remote, PHP 8 + Symfony + AWS, B2B commerce platform — Qualified
-- [ ] https://startup.jobs/full-stack-software-engineer-php-laravel-vuejs-html-css-latin-america-only-freelance-remote-braintrust-4228694 | Braintrust | Full Stack PHP/Laravel/VueJS Engineer | Latin America only, $48K-$55K/yr, PST overlap, freelance — Qualified, rate low
+- [x] https://startup.jobs/full-stack-software-engineer-php-laravel-vuejs-html-css-latin-america-only-freelance-remote-braintrust-4228694 | Braintrust | Full Stack PHP/Laravel/VueJS Engineer | Lost — not available
 - [x] https://remotive.com/remote/jobs/software-development/php-laravel-developer-4001974 | Somewhere | PHP Laravel Developer | Lost — not available
 - [ ] https://startup.jobs/php-with-laravel-developer-remote-latin-america-fullstack-labs-3307694 | FullStack Labs | PHP with Laravel Developer | Latin America only, top consultancy (Uber/GoDaddy clients), competitive pay — Qualified
 - [ ] https://startup.jobs/php-developer-remote-latin-america-fullstack-labs-5001396 | FullStack Labs | PHP Developer | Latin America only, PHP+Python+MongoDB stack, top consultancy — Qualified
