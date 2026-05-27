@@ -43,7 +43,7 @@
 - [ ] https://weworkremotely.com/remote-jobs/onthegosystems-php-developer-latin-america-german-french-and-spanish-speakers | OnTheGoSystems | PHP Developer (Latin America, Spanish speakers) | WPML plugin, LATAM remote, Spanish-speaking variant — Qualified
 - [x] https://weworkremotely.com/listings/awesome-motive-senior-laravel-developer | Awesome Motive | Senior Laravel Developer | Lost — not available
 - [x] https://startup.jobs/tech-lead-php-laravel-devsu-3426942 | Devsu | Tech Lead PHP/Laravel | Lost — not available
-- [ ] https://weworkremotely.com/remote-jobs/neris-analytics-limited-experienced-backend-developer-laravel-vue | NERIS Analytics Limited | Experienced Backend Developer (Laravel/Vue) | Worldwide anywhere, $60-90k/yr, 16Personalities platform, stable long-term — Qualified
+- [x] https://weworkremotely.com/remote-jobs/neris-analytics-limited-experienced-backend-developer-laravel-vue | NERIS Analytics Limited | Experienced Backend Developer (Laravel/Vue) | Lost — not available
 - [ ] https://weworkremotely.com/remote-jobs/the-remote-company-sr-laravel-and-vue-js-developer | The Remote Company | SR Laravel and Vue.js Developer | Worldwide remote-first, Senior level — Qualified
 - [x] https://weworkremotely.com/remote-jobs/film-and-music-php-laravel-engineer | Film and Music | PHP/Laravel Engineer | Lost — not a fit
 - [x] https://weworkremotely.com/remote-jobs/learning-tapestry-senior-php-developer | Learning Tapestry | Senior PHP Developer | Lost — not available
