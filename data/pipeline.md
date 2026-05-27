@@ -8,7 +8,7 @@
 - [x] https://www.peopleperhour.com/freelance-jobs/technology-programming/website-development/laravel-vue-js-developer-needed-4494114 | PeoplePerHour Client | Laravel + Vue.js Developer | Lost — rate too low
 - [x] https://remotive.com/remote/jobs/software-development/drupal-developer-4271045 | NavitasPartners | Drupal Developer | Lost — not available
 - [ ] https://weworkremotely.com/remote-jobs/proxify-ab-senior-laravel-developer-long-term-job-100-remote | Proxify | Senior Laravel Developer | Worldwide +/-4h timezone, 100% remote long-term — Qualified
-- [ ] https://weworkremotely.com/listings/chirocat-senior-laravel-developer | ChiroCat | Senior Laravel Developer | GMT-7 to GMT-4 (Mexico City OK), chiro SaaS — Qualified
+- [x] https://weworkremotely.com/listings/chirocat-senior-laravel-developer | ChiroCat | Senior Laravel Developer | Lost — not available
 - [ ] https://www.workingnomads.com/jobs/full-stack-symfony-developer-with-strong-chef-experience-scalable-path | Scalable Path | Full-Stack Symfony Developer | Worldwide LATAM, ~$35-50/hr part-time, Chef required — Qualified
 - [x] https://startup.jobs/senior-full-stack-php-laravel-reactjs-engineer-all-latam-countries-fully-remote-mahisoft-inc-4258649 | Mahisoft Inc. | Senior Full Stack PHP Laravel React.js Engineer | Lost — not available
 - [x] https://startup.jobs/senior-php-laravel-developer-all-latam-countries-fully-remote-mahisoft-inc-4258648 | Mahisoft Inc. | Senior PHP Laravel Developer | Lost — not available
