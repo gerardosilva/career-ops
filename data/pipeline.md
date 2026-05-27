@@ -18,7 +18,7 @@
 - [ ] https://remotive.com/remote/jobs/software-development/professional-software-engineer-gn-php-b2b-commerce-4386028 | The Quality Group | Professional Software Engineer (PHP/Symfony) | Worldwide remote, PHP 8 + Symfony + AWS, B2B commerce platform — Qualified
 - [x] https://startup.jobs/full-stack-software-engineer-php-laravel-vuejs-html-css-latin-america-only-freelance-remote-braintrust-4228694 | Braintrust | Full Stack PHP/Laravel/VueJS Engineer | Lost — not available
 - [x] https://remotive.com/remote/jobs/software-development/php-laravel-developer-4001974 | Somewhere | PHP Laravel Developer | Lost — not available
-- [ ] https://startup.jobs/php-with-laravel-developer-remote-latin-america-fullstack-labs-3307694 | FullStack Labs | PHP with Laravel Developer | Latin America only, top consultancy (Uber/GoDaddy clients), competitive pay — Qualified
+- [x] https://startup.jobs/php-with-laravel-developer-remote-latin-america-fullstack-labs-3307694 | FullStack Labs | PHP with Laravel Developer | Lost — not available
 - [ ] https://startup.jobs/php-developer-remote-latin-america-fullstack-labs-5001396 | FullStack Labs | PHP Developer | Latin America only, PHP+Python+MongoDB stack, top consultancy — Qualified
 - [x] https://startup.jobs/php-developer-remote-oowlish-technology-4008101 | Oowlish Technology | PHP Developer | Lost — not available
 - [x] https://jobs.lever.co/bluelightconsulting/3187bca5-2926-4827-bfa2-05fcb36ed92d | Bluelight Consulting | Laravel Developer + React | Lost — not a fit
