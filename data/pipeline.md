@@ -46,6 +46,8 @@
 - [ ] https://weworkremotely.com/remote-jobs/neris-analytics-limited-experienced-backend-developer-laravel-vue | NERIS Analytics Limited | Experienced Backend Developer (Laravel/Vue) | Worldwide anywhere, $60-90k/yr, 16Personalities platform, stable long-term — Qualified
 - [ ] https://weworkremotely.com/remote-jobs/the-remote-company-sr-laravel-and-vue-js-developer | The Remote Company | SR Laravel and Vue.js Developer | Worldwide remote-first, Senior level — Qualified
 - [ ] https://weworkremotely.com/remote-jobs/film-and-music-php-laravel-engineer | Film and Music | PHP/Laravel Engineer | Worldwide remote-first, JD says junior/mid-level — Qualified, verify seniority fit
+- [ ] https://weworkremotely.com/remote-jobs/learning-tapestry-senior-php-developer | Learning Tapestry | Senior PHP Developer | Global all-remote org, ET timezone overlap, part-time contract (16-24h/week), Laravel/Vue.js — Qualified
+- [ ] https://startup.jobs/senior-full-stack-developer-drupal-launchpad-technologies-5966808 | Launchpad Technologies | Senior Full-Stack Developer (Drupal) | Remote LATAM, headless Drupal + React/Next.js, LATAM nearshore consultancy — Qualified, verify availability
 
 ## Processed
 
