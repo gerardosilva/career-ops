@@ -31,7 +31,7 @@
 - [x] https://remotive.com/remote/jobs/software-dev/senior-drupal-php-engineer-1860813 | Foxbox Digital | Senior Drupal PHP Engineer | Lost — closed
 - [x] https://remotive.com/remote/jobs/software-development/senior-laravel-php-engineer-3981925 | Gorilla Logic | Senior Laravel/PHP Engineer | Lost — not available
 - [x] https://startup.jobs/php-developer-latin-america-remote-azumo-3847799 | Azumo | PHP Developer | Lost — not a fit
-- [ ] https://jobs.lever.co/bluelightconsulting/8cd1d3fa-926f-463c-8c10-d9a6a3b06226 | Bluelight Consulting | Full Stack Laravel + React Developer | Latin America, Laravel 8+, React, new opening — Qualified
+- [x] https://jobs.lever.co/bluelightconsulting/8cd1d3fa-926f-463c-8c10-d9a6a3b06226 | Bluelight Consulting | Full Stack Laravel + React Developer | Lost — closed
 - [ ] https://jobs.lever.co/bluelightconsulting/3e9ffcd7-bd56-4337-b0db-685f53752cfe | Bluelight Consulting | Laravel and React Developer | Latin America, competitive pay, additional opening — Qualified
 - [ ] https://weworkremotely.com/remote-jobs/lemon-io-senior-php-full-stack-developer | Lemon.io | Senior PHP Full-stack Developer | 50+ countries incl. LATAM/Mexico, PHP full-stack talent marketplace — Qualified
 - [ ] https://weworkremotely.com/remote-jobs/lemon-io-senior-full-stack-php-react-developer | Lemon.io | Senior Full-stack PHP & React Developer | 50+ countries incl. LATAM/Mexico, PHP+React — Qualified
