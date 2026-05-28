@@ -1,6 +1,6 @@
 ## Pending
 
-- [ ] https://career.softserveinc.com/en-us/vacancies/cms-solutions-architect-contentful-drupal-87360 | SoftServe | CMS Solutions Architect (Contentful, Drupal) | México confirmado, headless/MACH fit — CV generado
+- [x] https://career.softserveinc.com/en-us/vacancies/cms-solutions-architect-contentful-drupal-87360 | SoftServe | CMS Solutions Architect (Contentful, Drupal) | Lost — not available
 - [x] https://jobs.drupal.org/chromatic/job/17288 | Chromatic | Senior Drupal/PHP Application Developer | Lost — not available
 - [x] https://jobs.drupal.org/chromatic/job/17129 | Chromatic | Senior Front-End Drupal Developer | Lost — not available
 - [x] https://jobs.drupal.org/symphony3/job/16811 | Symphony3 | Senior Full-stack Drupal Developer | Lost — not available
