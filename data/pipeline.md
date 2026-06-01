@@ -55,6 +55,7 @@
 - [ ] https://www.remoterocketship.com/company/sogexia/jobs/senior-backend-developer-worldwide-remote/ | Sogexia | Senior Backend Developer (PHP/Symfony) | Worldwide remote, PHP/Symfony 4+ yrs, Luxembourg fintech 650k+ customers — Qualified
 - [ ] https://startup.jobs/back-end-laravel-php-developer-launchpad-technologies-4087886 | Launchpad Technologies | Back end Laravel PHP Developer | LATAM remote, staff augmentation, Vancouver+Santiago Chile HQ — Qualified
 - [x] https://remotive.com/remote/jobs/software-development/senior-php-developer-4163496 | Damia Group | Senior PHP Developer | Lost — not available
+- [ ] https://remotive.com/remote/jobs/software-development/backend-developer-4444625 | Ideaware | Backend Developer (Laravel PHP/Python) | Americas/Europe/Israel remote, fintech platform, LATAM nearshore company — Qualified
 
 ## Processed
 
