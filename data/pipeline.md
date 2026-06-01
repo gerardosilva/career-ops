@@ -13,7 +13,7 @@
 - [x] https://startup.jobs/senior-full-stack-php-laravel-reactjs-engineer-all-latam-countries-fully-remote-mahisoft-inc-4258649 | Mahisoft Inc. | Senior Full Stack PHP Laravel React.js Engineer | Lost — not available
 - [x] https://startup.jobs/senior-php-laravel-developer-all-latam-countries-fully-remote-mahisoft-inc-4258648 | Mahisoft Inc. | Senior PHP Laravel Developer | Lost — not available
 - [x] https://remotive.com/remote/jobs/software-development/senior-backend-php-developer-4486382 | Lighthouse | Senior Backend PHP Developer | Lost — language barrier
-- [ ] https://remotive.com/remote/jobs/software-development/php-developer-backend-4488306 | Custom Connect | PHP Developer Backend | Worldwide, no geo restrictions — Qualified
+- [x] https://remotive.com/remote/jobs/software-development/php-developer-backend-4488306 | Custom Connect | PHP Developer Backend | Lost — not available
 - [x] https://weworkremotely.com/remote-jobs/entermotion-php-laravel-app-developer | Entermotion Design Studio | PHP/Laravel App Developer | Lost — not available
 - [ ] https://remotive.com/remote/jobs/software-development/professional-software-engineer-gn-php-b2b-commerce-4386028 | The Quality Group | Professional Software Engineer (PHP/Symfony) | Worldwide remote, PHP 8 + Symfony + AWS, B2B commerce platform — Qualified
 - [x] https://startup.jobs/full-stack-software-engineer-php-laravel-vuejs-html-css-latin-america-only-freelance-remote-braintrust-4228694 | Braintrust | Full Stack PHP/Laravel/VueJS Engineer | Lost — not available
