@@ -56,6 +56,10 @@
 - [x] https://startup.jobs/back-end-laravel-php-developer-launchpad-technologies-4087886 | Launchpad Technologies | Back end Laravel PHP Developer | Lost — closed
 - [x] https://remotive.com/remote/jobs/software-development/senior-php-developer-4163496 | Damia Group | Senior PHP Developer | Lost — not available
 - [ ] https://remotive.com/remote/jobs/software-development/backend-developer-4444625 | Ideaware | Backend Developer (Laravel PHP/Python) | Americas/Europe/Israel remote, fintech platform, LATAM nearshore company — Qualified
+- [ ] https://jobs.lever.co/bluelightconsulting/f7037b03-2d3d-4150-9cae-16a9add0c392 | Bluelight Consulting | Full Stack Laravel + React Developer | Latin America remote, new Bluelight opening Jun 2026 — Qualified
+- [ ] https://jobs.lever.co/bluelightconsulting/707ca50c-e73d-44f2-86b7-7452975c2f2e | Bluelight Consulting | Laravel and React Developer | Latin America remote, new round Jun 2026 — Qualified
+- [ ] https://jobs.lever.co/bluelightconsulting/6afd228c-77f8-4a32-b42b-94a31f5155e2 | Bluelight Consulting | Laravel and React Developer | Latin America remote, new round Jun 2026 — Qualified
+- [ ] https://remoteok.com/remote-jobs/remote-bluelight-consulting-fullstack-php-developer-latin-america-bluelight-consulting-1132450 | Bluelight Consulting | Fullstack PHP Developer | Latin America remote, via RemoteOK Jun 2026 — Qualified
 
 ## Processed
 
