@@ -60,6 +60,10 @@
 - [ ] https://jobs.lever.co/bluelightconsulting/707ca50c-e73d-44f2-86b7-7452975c2f2e | Bluelight Consulting | Laravel and React Developer | Latin America remote, new round Jun 2026 — Qualified
 - [ ] https://jobs.lever.co/bluelightconsulting/6afd228c-77f8-4a32-b42b-94a31f5155e2 | Bluelight Consulting | Laravel and React Developer | Latin America remote, new round Jun 2026 — Qualified
 - [ ] https://remoteok.com/remote-jobs/remote-bluelight-consulting-fullstack-php-developer-latin-america-bluelight-consulting-1132450 | Bluelight Consulting | Fullstack PHP Developer | Latin America remote, via RemoteOK Jun 2026 — Qualified
+- [ ] https://jobs.lever.co/bluelightconsulting/8c3df036-441a-4456-b419-176fa5901d7d | Bluelight Consulting | PHP Developer | Latin America remote, PHP/Laravel stack, new Jun 2026 opening — Qualified
+- [ ] https://jobs.lever.co/bluelightconsulting/779266d0-635c-4aa2-87b0-36ae15e8343e | Bluelight Consulting | Laravel and React Developer | Latin America remote, new Jun 2026 round — Qualified
+- [ ] https://jobs.lever.co/bluelightconsulting/62891300-2b2a-49af-88e9-20608aba0b03 | Bluelight Consulting | Laravel Engineer with MySQL Tuning Experience | LATAM remote, MySQL optimization focus — Qualified
+- [ ] https://jobs.lever.co/bluelightconsulting/a6b70f61-4b4d-4cb0-a03b-ee703de56f06 | Bluelight Consulting | Laravel Developer + React | Latin America remote, new Jun 2026 opening — Qualified
 
 ## Processed
 
