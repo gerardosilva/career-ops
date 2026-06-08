@@ -67,6 +67,10 @@
 - [ ] https://weworkremotely.com/remote-jobs/i-gtm-symfony-doctrine-performance-engineer-project-with-long-term-potential | i-gtm | Symfony + Doctrine Performance Engineer | UK EdTech, Symfony 5.x→6.4 upgrade, worldwide remote, short-project LTP — Qualified
 - [ ] https://himalayas.app/companies/aethercore/jobs/senior-full-stack-laravel-developer | AetherCore | Senior Full Stack Laravel Developer | Work from anywhere worldwide, Laravel 3-5+ yrs, Spanish company via Cross Border Talents — Qualified
 - [ ] https://himalayas.app/companies/dacodes/jobs/full-stack-developer-laravel-php-angular-typescript | DaCodes | Full Stack Developer (Laravel/PHP + Angular) | Mexican company (220+ devs), LATAM remote, Laravel 8+/PHP 8.1+, +7yrs exp — Qualified
+- [ ] https://jobs.lever.co/bluelightconsulting/ff03552b-acfa-4370-bfaf-c81f73086b83 | Bluelight Consulting | Laravel and React Developer | Latin America remote, new Bluelight opening Jun 2026 — Qualified
+- [ ] https://jobs.lever.co/bluelightconsulting/5c7994f9-6e74-466a-b3df-575473b1357e | Bluelight Consulting | Full Stack Laravel + React Developer | Latin America remote, new Bluelight opening Jun 2026 — Qualified
+- [ ] https://jobs.lever.co/bluelightconsulting/874ac211-7655-4b00-aa6b-06effc25b754 | Bluelight Consulting | PHP Developer | Latin America remote, PHP/Laravel stack, new Jun 2026 opening — Qualified
+- [ ] https://jobs.lever.co/bluelightconsulting/e4c26d13-aa59-4d03-b17f-3f2c6f578c8f | Bluelight Consulting | Laravel Developer | Latin America remote, new Jun 2026 round — Qualified
 
 ## Processed
 
