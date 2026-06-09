@@ -71,6 +71,10 @@
 - [ ] https://jobs.lever.co/bluelightconsulting/5c7994f9-6e74-466a-b3df-575473b1357e | Bluelight Consulting | Full Stack Laravel + React Developer | Latin America remote, new Bluelight opening Jun 2026 — Qualified
 - [ ] https://jobs.lever.co/bluelightconsulting/874ac211-7655-4b00-aa6b-06effc25b754 | Bluelight Consulting | PHP Developer | Latin America remote, PHP/Laravel stack, new Jun 2026 opening — Qualified
 - [ ] https://jobs.lever.co/bluelightconsulting/e4c26d13-aa59-4d03-b17f-3f2c6f578c8f | Bluelight Consulting | Laravel Developer | Latin America remote, new Jun 2026 round — Qualified
+- [ ] https://jobs.lever.co/bluelightconsulting/84edd443-e4e7-4035-b32d-5bdf2135a1f6 | Bluelight Consulting | Full Stack Laravel + React Developer | Latin America remote, new Bluelight opening Jun 2026 — Qualified
+- [ ] https://jobs.lever.co/bluelightconsulting/535cf081-5b28-4aef-ae60-4c15f8e22b25 | Bluelight Consulting | Laravel and React Developer | Latin America remote, new Bluelight opening Jun 2026 — Qualified
+- [ ] https://himalayas.app/companies/fullstack-labs/jobs/full-stack-laravel-vue-developer-remote-latin-america-6423190808 | FullStack Labs | Full-stack Laravel/Vue Developer | Latin America remote, FullStack Labs consultancy, Laravel + Vue.js — Qualified
+- [ ] https://startup.jobs/php-developer-remote-oowlish-technology-4008087 | Oowlish Technology | PHP Developer | LATAM remote (Nicaragua), fast-growing LatAm software company, US/Europe clients — Qualified
 
 ## Processed
 
