@@ -27,12 +27,12 @@
 - [x] https://builtin.com/job/drupal-developer-remote-latin-america/2561814 | FullStack Labs | Drupal Developer - Remote - Latin America (2) | Lost — not available
 - [x] https://weworkremotely.com/remote-jobs/lemon-io-senior-full-stack-angular-php-developer | Lemon.io | Senior Full-stack Angular & PHP Developer | Lost — closed
 - [ ] https://remotive.com/remote/jobs/software-development/php-developer-4285212 | Perficient | PHP Developer | LATAM remote, Fortune 500 digital consultancy, PHP full-stack — Qualified
-- [ ] https://remotive.com/remote/jobs/software-development/php-developer-3957271 | Bluelight Consulting | PHP Developer | Latin America only, leading LATAM consultancy — Qualified
+- [x] https://remotive.com/remote/jobs/software-development/php-developer-3957271 | Bluelight Consulting | PHP Developer | Lost — company blocked
 - [x] https://remotive.com/remote/jobs/software-dev/senior-drupal-php-engineer-1860813 | Foxbox Digital | Senior Drupal PHP Engineer | Lost — closed
 - [x] https://remotive.com/remote/jobs/software-development/senior-laravel-php-engineer-3981925 | Gorilla Logic | Senior Laravel/PHP Engineer | Lost — not available
 - [x] https://startup.jobs/php-developer-latin-america-remote-azumo-3847799 | Azumo | PHP Developer | Lost — not a fit
 - [x] https://jobs.lever.co/bluelightconsulting/8cd1d3fa-926f-463c-8c10-d9a6a3b06226 | Bluelight Consulting | Full Stack Laravel + React Developer | Lost — closed
-- [ ] https://jobs.lever.co/bluelightconsulting/3e9ffcd7-bd56-4337-b0db-685f53752cfe | Bluelight Consulting | Laravel and React Developer | Latin America, competitive pay, additional opening — Qualified
+- [x] https://jobs.lever.co/bluelightconsulting/3e9ffcd7-bd56-4337-b0db-685f53752cfe | Bluelight Consulting | Laravel and React Developer | Lost — company blocked
 - [ ] https://weworkremotely.com/remote-jobs/lemon-io-senior-php-full-stack-developer | Lemon.io | Senior PHP Full-stack Developer | 50+ countries incl. LATAM/Mexico, PHP full-stack talent marketplace — Qualified
 - [ ] https://weworkremotely.com/remote-jobs/lemon-io-senior-full-stack-php-react-developer | Lemon.io | Senior Full-stack PHP & React Developer | 50+ countries incl. LATAM/Mexico, PHP+React — Qualified
 - [x] https://weworkremotely.com/remote-jobs/internet-projects-ltd-senior-symfony-php-full-stack-developer-remote-full-time-1 | Internet Projects Ltd | Senior Symfony PHP Full Stack Developer | Lost — not available
@@ -56,23 +56,23 @@
 - [x] https://startup.jobs/back-end-laravel-php-developer-launchpad-technologies-4087886 | Launchpad Technologies | Back end Laravel PHP Developer | Lost — closed
 - [x] https://remotive.com/remote/jobs/software-development/senior-php-developer-4163496 | Damia Group | Senior PHP Developer | Lost — not available
 - [ ] https://remotive.com/remote/jobs/software-development/backend-developer-4444625 | Ideaware | Backend Developer (Laravel PHP/Python) | Americas/Europe/Israel remote, fintech platform, LATAM nearshore company — Qualified
-- [ ] https://jobs.lever.co/bluelightconsulting/f7037b03-2d3d-4150-9cae-16a9add0c392 | Bluelight Consulting | Full Stack Laravel + React Developer | Latin America remote, new Bluelight opening Jun 2026 — Qualified
-- [ ] https://jobs.lever.co/bluelightconsulting/707ca50c-e73d-44f2-86b7-7452975c2f2e | Bluelight Consulting | Laravel and React Developer | Latin America remote, new round Jun 2026 — Qualified
-- [ ] https://jobs.lever.co/bluelightconsulting/6afd228c-77f8-4a32-b42b-94a31f5155e2 | Bluelight Consulting | Laravel and React Developer | Latin America remote, new round Jun 2026 — Qualified
-- [ ] https://remoteok.com/remote-jobs/remote-bluelight-consulting-fullstack-php-developer-latin-america-bluelight-consulting-1132450 | Bluelight Consulting | Fullstack PHP Developer | Latin America remote, via RemoteOK Jun 2026 — Qualified
-- [ ] https://jobs.lever.co/bluelightconsulting/8c3df036-441a-4456-b419-176fa5901d7d | Bluelight Consulting | PHP Developer | Latin America remote, PHP/Laravel stack, new Jun 2026 opening — Qualified
-- [ ] https://jobs.lever.co/bluelightconsulting/779266d0-635c-4aa2-87b0-36ae15e8343e | Bluelight Consulting | Laravel and React Developer | Latin America remote, new Jun 2026 round — Qualified
-- [ ] https://jobs.lever.co/bluelightconsulting/62891300-2b2a-49af-88e9-20608aba0b03 | Bluelight Consulting | Laravel Engineer with MySQL Tuning Experience | LATAM remote, MySQL optimization focus — Qualified
-- [ ] https://jobs.lever.co/bluelightconsulting/a6b70f61-4b4d-4cb0-a03b-ee703de56f06 | Bluelight Consulting | Laravel Developer + React | Latin America remote, new Jun 2026 opening — Qualified
+- [x] https://jobs.lever.co/bluelightconsulting/f7037b03-2d3d-4150-9cae-16a9add0c392 | Bluelight Consulting | Full Stack Laravel + React Developer | Lost — company blocked
+- [x] https://jobs.lever.co/bluelightconsulting/707ca50c-e73d-44f2-86b7-7452975c2f2e | Bluelight Consulting | Laravel and React Developer | Lost — company blocked
+- [x] https://jobs.lever.co/bluelightconsulting/6afd228c-77f8-4a32-b42b-94a31f5155e2 | Bluelight Consulting | Laravel and React Developer | Lost — company blocked
+- [x] https://remoteok.com/remote-jobs/remote-bluelight-consulting-fullstack-php-developer-latin-america-bluelight-consulting-1132450 | Bluelight Consulting | Fullstack PHP Developer | Lost — company blocked
+- [x] https://jobs.lever.co/bluelightconsulting/8c3df036-441a-4456-b419-176fa5901d7d | Bluelight Consulting | PHP Developer | Lost — company blocked
+- [x] https://jobs.lever.co/bluelightconsulting/779266d0-635c-4aa2-87b0-36ae15e8343e | Bluelight Consulting | Laravel and React Developer | Lost — company blocked
+- [x] https://jobs.lever.co/bluelightconsulting/62891300-2b2a-49af-88e9-20608aba0b03 | Bluelight Consulting | Laravel Engineer with MySQL Tuning Experience | Lost — company blocked
+- [x] https://jobs.lever.co/bluelightconsulting/a6b70f61-4b4d-4cb0-a03b-ee703de56f06 | Bluelight Consulting | Laravel Developer + React | Lost — company blocked
 - [ ] https://weworkremotely.com/remote-jobs/i-gtm-symfony-doctrine-performance-engineer-project-with-long-term-potential | i-gtm | Symfony + Doctrine Performance Engineer | UK EdTech, Symfony 5.x→6.4 upgrade, worldwide remote, short-project LTP — Qualified
 - [ ] https://himalayas.app/companies/aethercore/jobs/senior-full-stack-laravel-developer | AetherCore | Senior Full Stack Laravel Developer | Work from anywhere worldwide, Laravel 3-5+ yrs, Spanish company via Cross Border Talents — Qualified
 - [ ] https://himalayas.app/companies/dacodes/jobs/full-stack-developer-laravel-php-angular-typescript | DaCodes | Full Stack Developer (Laravel/PHP + Angular) | Mexican company (220+ devs), LATAM remote, Laravel 8+/PHP 8.1+, +7yrs exp — Qualified
-- [ ] https://jobs.lever.co/bluelightconsulting/ff03552b-acfa-4370-bfaf-c81f73086b83 | Bluelight Consulting | Laravel and React Developer | Latin America remote, new Bluelight opening Jun 2026 — Qualified
-- [ ] https://jobs.lever.co/bluelightconsulting/5c7994f9-6e74-466a-b3df-575473b1357e | Bluelight Consulting | Full Stack Laravel + React Developer | Latin America remote, new Bluelight opening Jun 2026 — Qualified
-- [ ] https://jobs.lever.co/bluelightconsulting/874ac211-7655-4b00-aa6b-06effc25b754 | Bluelight Consulting | PHP Developer | Latin America remote, PHP/Laravel stack, new Jun 2026 opening — Qualified
-- [ ] https://jobs.lever.co/bluelightconsulting/e4c26d13-aa59-4d03-b17f-3f2c6f578c8f | Bluelight Consulting | Laravel Developer | Latin America remote, new Jun 2026 round — Qualified
-- [ ] https://jobs.lever.co/bluelightconsulting/84edd443-e4e7-4035-b32d-5bdf2135a1f6 | Bluelight Consulting | Full Stack Laravel + React Developer | Latin America remote, new Bluelight opening Jun 2026 — Qualified
-- [ ] https://jobs.lever.co/bluelightconsulting/535cf081-5b28-4aef-ae60-4c15f8e22b25 | Bluelight Consulting | Laravel and React Developer | Latin America remote, new Bluelight opening Jun 2026 — Qualified
+- [x] https://jobs.lever.co/bluelightconsulting/ff03552b-acfa-4370-bfaf-c81f73086b83 | Bluelight Consulting | Laravel and React Developer | Lost — company blocked
+- [x] https://jobs.lever.co/bluelightconsulting/5c7994f9-6e74-466a-b3df-575473b1357e | Bluelight Consulting | Full Stack Laravel + React Developer | Lost — company blocked
+- [x] https://jobs.lever.co/bluelightconsulting/874ac211-7655-4b00-aa6b-06effc25b754 | Bluelight Consulting | PHP Developer | Lost — company blocked
+- [x] https://jobs.lever.co/bluelightconsulting/e4c26d13-aa59-4d03-b17f-3f2c6f578c8f | Bluelight Consulting | Laravel Developer | Lost — company blocked
+- [x] https://jobs.lever.co/bluelightconsulting/84edd443-e4e7-4035-b32d-5bdf2135a1f6 | Bluelight Consulting | Full Stack Laravel + React Developer | Lost — company blocked
+- [x] https://jobs.lever.co/bluelightconsulting/535cf081-5b28-4aef-ae60-4c15f8e22b25 | Bluelight Consulting | Laravel and React Developer | Lost — company blocked
 - [ ] https://himalayas.app/companies/fullstack-labs/jobs/full-stack-laravel-vue-developer-remote-latin-america-6423190808 | FullStack Labs | Full-stack Laravel/Vue Developer | Latin America remote, FullStack Labs consultancy, Laravel + Vue.js — Qualified
 - [ ] https://startup.jobs/php-developer-remote-oowlish-technology-4008087 | Oowlish Technology | PHP Developer | LATAM remote (Nicaragua), fast-growing LatAm software company, US/Europe clients — Qualified
 
