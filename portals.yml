@@ -256,7 +256,7 @@ tracked_companies:
     careers_url: https://www.bluelight.co/careers
     scan_method: websearch
     scan_query: 'Bluelight Consulting developer remote "Latin America" job'
-    enabled: true
+    enabled: false  # banned_company: floods pipeline with near-identical openings
 
   - name: Get on Board
     careers_url: https://www.getonbrd.com
