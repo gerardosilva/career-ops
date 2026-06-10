@@ -91,6 +91,7 @@ geo_policy:
 
 banned_companies:
   - "829 Studios"
+  - "Bluelight Consulting"  # floods pipeline with multiple near-identical openings
 
 banned_domains:
   # These domains consistently return stale or already-closed listings via search
