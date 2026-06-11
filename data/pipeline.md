@@ -75,6 +75,11 @@
 - [x] https://jobs.lever.co/bluelightconsulting/535cf081-5b28-4aef-ae60-4c15f8e22b25 | Bluelight Consulting | Laravel and React Developer | Lost — company blocked
 - [ ] https://himalayas.app/companies/fullstack-labs/jobs/full-stack-laravel-vue-developer-remote-latin-america-6423190808 | FullStack Labs | Full-stack Laravel/Vue Developer | Latin America remote, FullStack Labs consultancy, Laravel + Vue.js — Qualified
 - [ ] https://startup.jobs/php-developer-remote-oowlish-technology-4008087 | Oowlish Technology | PHP Developer | LATAM remote (Nicaragua), fast-growing LatAm software company, US/Europe clients — Qualified
+- [ ] https://www.remoterocketship.com/company/nir-yu/jobs/senior-laravel-developer-mexico-remote/ | NIR-YU | Senior Laravel Developer | Mexico remote, Senior, Laravel 11/12 + Livewire 3, feature dev + maintenance — Qualified
+- [ ] https://himalayas.app/companies/dresden-partners/jobs/fullstack-php-developer-remoto | Dresden Partners | Fullstack PHP Developer | LATAM remote, PHP/Laravel + PostgreSQL + Angular/TypeScript, Mexico-LATAM-US connector — Qualified
+- [ ] https://himalayas.app/companies/growth-acceleration-partners/jobs/advanced-php-software-engineer | Growth Acceleration Partners | Advanced PHP Software Engineer | LATAM nearshore, PHP 3+ yrs, US clients, consulting model — Qualified
+- [ ] https://www.remoterocketship.com/us/company/entermotion-design-studio/jobs/backend-developer-php-laravel-worldwide-remote/ | Entermotion Design Studio | Backend PHP/Laravel Developer | Worldwide remote, Laravel-focused product agency — Qualified
+- [ ] https://himalayas.app/companies/remote-talent-latam/jobs/full-stack-developer-remote-latam-only-85141 | Remote Talent LATAM | Full Stack Developer | LATAM only, PHP/Laravel + React/Tailwind, vendor data platform — Qualified
 
 ## Processed
 
